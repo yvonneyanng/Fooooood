@@ -7,10 +7,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class RstrHolder extends RecyclerView.ViewHolder {
+public class RestaurantHolder extends RecyclerView.ViewHolder {
     ImageView image;
     TextView name,score;
-    public RstrHolder(@NonNull View itemView) {
+    public RestaurantHolder(@NonNull View itemView) {
         super(itemView);
+
+        this.image=itemView.findViewById(R.id.imageView);
+        this.name=itemView.findViewById(R.id.restaurantName);
+        this.score=itemView.findViewById(R.id.score);
+
     }
 }
