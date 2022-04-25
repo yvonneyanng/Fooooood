@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ycyyau/AndroidStudioProjects/test/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
                     "source": "/Users/ycyyau/.gradle/caches/transforms-3/53207dac8a8df2118dd13aece775a512/transformed/play-services-base-18.0.1/res/values-es/values.xml",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/ycyyau/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ycyyau/.gradle/caches/transforms-3/f25edce33867b32a9dc5187e497ed820/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/ycyyau/.gradle/caches/transforms-3/f791586eb8e3cddcf33fb36842d7675a/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -47,25 +47,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ycyyau/.gradle/cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/9f24011717b021bac9ee09874fd0df37/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/6abfac59d263b6c8870828beb848f440/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ycyyau/.gradle/caches/transforms-3/a9e9e56cd500525808c19a605e367b6a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/ycyyau/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/ycyyau/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ycyyau/.gradle/caches/transforms-3/f25edce33867b32a9dc5187e497ed820/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -91,43 +91,43 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/ycyyau/.gradle/cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/ycyyau/.gradle/caches/transforms-3/02483169c4c9e0ddffa88758188ac6f1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:11:9-48
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:11:9-48
 activity#com.example.appproject.Login
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:12:9-14:40
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:14:13-37
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:13:13-34
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:13:13-34
 activity#com.example.appproject.MainActivity
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.5.0] /Users/ycyyau/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.5.0] /Users/ycyyau/.gradle/caches/transforms-3/8c8bd08bd5ab439882315c15d3205b6b/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/ycyyau/.gradle/caches/transforms-3/f25edce33867b32a9dc5187e497ed820/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
@@ -214,16 +214,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/ycyyau/.gradle/caches/transforms
 MERGED from [androidx.print:print:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/6abfac59d263b6c8870828beb848f440/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ycyyau/.gradle/caches/transforms-3/a9e9e56cd500525808c19a605e367b6a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ycyyau/.gradle/caches/transforms-3/a9e9e56cd500525808c19a605e367b6a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ycyyau/AndroidStudioProjects/test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/ycyyau/.gradle/caches/transforms-3/a64e665a61503a80e49bfac8d9433f50/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
 	android:name
