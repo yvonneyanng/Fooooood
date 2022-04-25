@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Foooooood</string>
-    <string name="title">Foooooood</string>
+    <string name="app_name">Fooooood</string>
+    <string name="title">Fooooood</string>
+    <string name="nearRestaurant">附近熱門選項</string>
+    <string name="allRestaurant">全部選項</string>
 
 </resources>

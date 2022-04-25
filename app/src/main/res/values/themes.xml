@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
+    <style name="Theme.Fooooood" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+=======
     <style name="Theme.Fooooood" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+>>>>>>> 73ac1b7ec72b7bfdd07706ce3f174a166a6b999a
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +16,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.NoTitle" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
     </style>
 </resources>

@@ -1,5 +1,189 @@
 [
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_pasta.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\pasta.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_down_arrow__1_.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\down_arrow__1_.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_magnifier__1_.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\magnifier__1_.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_shape.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_user__1_.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\user__1_.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_circle_shape.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\button_circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_send_message__1_.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\send_message__1_.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\layout_restaurant_col.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\layout\\restaurant_col.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_image.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\image.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit_background.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\edit_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_titleuser.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable-v24\\titleuser.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_shoppingcart.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable-v24\\shoppingcart.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_selector.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_normal.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\shape_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_shopping_cart.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\shopping_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_user__2_.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\user__2_.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_check.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_pressed.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\shape_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_close.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_hamburger.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\hamburger.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_dot_line.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\bg_dot_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_noodle.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\noodle.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\pizza.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\layout_restaurant_row.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\layout\\restaurant_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_flag.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\flag.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_errorimage.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable-v24\\errorimage.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\merged_res\\debug\\drawable_fast_delivery__1_.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\src\\main\\res\\drawable\\fast_delivery__1_.png"
+=======
         "merged": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -102,5 +286,6 @@
     {
         "merged": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/build/intermediates/merged_res/debug/drawable_button_circle_shape.xml.flat",
         "source": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/res/drawable/button_circle_shape.xml"
+>>>>>>> 73ac1b7ec72b7bfdd07706ce3f174a166a6b999a
     }
 ]
