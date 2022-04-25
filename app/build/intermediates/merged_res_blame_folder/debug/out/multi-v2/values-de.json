@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ycyyau/AndroidStudioProjects/test/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+            "outputFile": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
             "map": [
                 {
                     "source": "/Users/ycyyau/.gradle/caches/transforms-3/02483169c4c9e0ddffa88758188ac6f1/transformed/core-1.7.0/res/values-de/values-de.xml",

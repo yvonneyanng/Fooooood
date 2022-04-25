@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payWay">
+        <item>現金</item>
+        <item>信用卡</item>
+        <item>GooglePay</item>
+    </string-array>
+</resources>
