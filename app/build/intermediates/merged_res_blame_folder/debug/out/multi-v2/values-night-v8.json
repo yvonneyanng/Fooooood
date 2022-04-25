@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\Fooooood\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
@@ -24,6 +25,31 @@
                 },
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\f4644d49845b47ba06b9572c54ce16a0\\transformed\\material-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
+=======
+            "outputFile": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "819"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1449"
+                    }
+                },
+                {
+                    "source": "/Users/ycyyau/.gradle/caches/transforms-3/f791586eb8e3cddcf33fb36842d7675a/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+>>>>>>> 73ac1b7ec72b7bfdd07706ce3f174a166a6b999a
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -69,6 +95,25 @@
                         "startOffsets": "100,170,254,338,434,536,638,4104",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "165,249,333,429,531,633,727,4188"
+                    }
+                },
+                {
+                    "source": "/Users/ycyyau/AndroidStudioProjects/AppProject/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "211"
+                    },
+                    "to": {
+                        "startLines": "55",
+                        "startColumns": "4",
+                        "startOffsets": "5198",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "5392"
                     }
                 }
             ]
