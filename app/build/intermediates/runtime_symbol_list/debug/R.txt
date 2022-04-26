@@ -2540,6 +2540,8 @@ int id auto 0x7f090050
 int id autoComplete 0x7f090051
 int id autoCompleteToEnd 0x7f090052
 int id autoCompleteToStart 0x7f090053
+int id back_analysis 0x7f090216
+int id back_edit 0x7f090217
 int id barTitle 0x7f090054
 int id barrier 0x7f090055
 int id baseline 0x7f090056
@@ -2681,7 +2683,7 @@ int id ignoreRequest 0x7f0900dd
 int id image 0x7f0900de
 int id imageView 0x7f0900df
 int id imageView2 0x7f0900e0
-int id imageView3 0x7f0900e1
+int id imageView3_1 0x7f090218
 int id incoming 0x7f0900e2
 int id info 0x7f0900e3
 int id invisible 0x7f0900e4
@@ -2932,7 +2934,6 @@ int id textView20 0x7f0901d8
 int id textView24 0x7f0901d9
 int id textView25 0x7f0901da
 int id textView29 0x7f0901db
-int id textView3 0x7f0901dc
 int id textView30 0x7f0901dd
 int id textView31 0x7f0901de
 int id textView32 0x7f0901df
@@ -2940,11 +2941,12 @@ int id textView33 0x7f0901e0
 int id textView34 0x7f0901e1
 int id textView35 0x7f0901e2
 int id textView36 0x7f0901e3
-int id textView4 0x7f0901e4
+int id textView3_1 0x7f090219
 int id textView5 0x7f0901e5
 int id textView6 0x7f0901e6
 int id textView8 0x7f0901e7
 int id textView9 0x7f0901e8
+int id textView_price1 0x7f09021a
 int id text_input_end_icon 0x7f0901e9
 int id text_input_error_icon 0x7f0901ea
 int id text_input_start_icon 0x7f0901eb
@@ -2960,7 +2962,12 @@ int id titleDividerNoCustom 0x7f0901f4
 int id title_template 0x7f0901f5
 int id toggle 0x7f0901f6
 int id toolbar 0x7f0901f7
+int id toolbar_analysis 0x7f09021b
+int id toolbar_edit 0x7f09021c
+int id toolbar_layout2 0x7f09021d
+int id toolbar_layout3 0x7f09021e
 int id toolbar_title 0x7f0901f8
+int id toolbar_title2 0x7f09021f
 int id top 0x7f0901f9
 int id topPanel 0x7f0901fa
 int id total 0x7f0901fb
@@ -3075,6 +3082,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_analysis 0x7f0c0079
+int layout activity_edit 0x7f0c007a
 int layout activity_home 0x7f0c001c
 int layout activity_login 0x7f0c001d
 int layout activity_main 0x7f0c001e

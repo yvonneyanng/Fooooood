@@ -1,51 +1,15 @@
 [
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_edit_background.xml.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/edit_background.xml"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_check.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/check.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_shoppingcart.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/shoppingcart.png"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_down_arrow__1_.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/down_arrow__1_.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_button_circle_shape.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/button_circle_shape.xml"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_send_message__1_.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/send_message__1_.png"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_hamburger.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/hamburger.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_home.xml"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -56,52 +20,20 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/flag.png"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_shopping_cart.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shopping_cart.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_errorimage.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/errorimage.png"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_restaurant_row.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/restaurant_row.xml"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_menu.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/menu.png"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pizza.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pizza.png"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_noodle.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/noodle.png"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_shape_pressed.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shape_pressed.xml"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_close.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/close.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
@@ -124,10 +56,6 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_button_selector.xml.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/button_selector.xml"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_titleuser.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/titleuser.png"
     },
@@ -140,16 +68,16 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/restaurant_col.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_analysis.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_analysis.xml"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_user__1_.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/user__1_.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pasta.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pasta.png"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -172,6 +100,90 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shape_normal.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_edit_background.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/edit_background.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_check.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/check.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_shoppingcart.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/shoppingcart.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_down_arrow__1_.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/down_arrow__1_.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_send_message__1_.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/send_message__1_.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_hamburger.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/hamburger.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_shopping_cart.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shopping_cart.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_errorimage.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/errorimage.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_edit.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_edit.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_menu.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/menu.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_noodle.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/noodle.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_button_selector.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pasta.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pasta.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
@@ -182,9 +194,5 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_image.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/image.png"
-    },
-    {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

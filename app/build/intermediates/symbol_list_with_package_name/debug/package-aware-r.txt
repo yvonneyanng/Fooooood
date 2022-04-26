@@ -2541,6 +2541,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_analysis
+id back_edit
 id barTitle
 id barrier
 id baseline
@@ -2682,7 +2684,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
-id imageView3
+id imageView3_1
 id incoming
 id info
 id invisible
@@ -2933,7 +2935,6 @@ id textView20
 id textView24
 id textView25
 id textView29
-id textView3
 id textView30
 id textView31
 id textView32
@@ -2941,11 +2942,12 @@ id textView33
 id textView34
 id textView35
 id textView36
-id textView4
+id textView3_1
 id textView5
 id textView6
 id textView8
 id textView9
+id textView_price1
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2961,7 +2963,12 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toolbar
+id toolbar_analysis
+id toolbar_edit
+id toolbar_layout2
+id toolbar_layout3
 id toolbar_title
+id toolbar_title2
 id top
 id topPanel
 id total
@@ -3076,6 +3083,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_analysis
+layout activity_edit
 layout activity_home
 layout activity_login
 layout activity_main

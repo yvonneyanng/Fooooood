@@ -65,7 +65,7 @@
             android:layout_marginEnd="352dp"
             android:layout_marginBottom="14dp"
             android:src="@drawable/titleuser"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </RelativeLayout>
 
@@ -152,14 +152,14 @@
         app:layout_constraintTop_toTopOf="@+id/relativeLayout">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView3_1"
             android:layout_width="124dp"
             android:layout_height="101dp"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/errorimage" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3_1"
             android:layout_width="213dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -169,7 +169,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView_price1"
             android:layout_width="318dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -192,7 +192,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView_price1"
             android:layout_width="317dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -202,7 +202,7 @@
             android:textStyle="normal" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView3_1"
             android:layout_width="124dp"
             android:layout_height="101dp"
             android:scaleType="fitCenter"
@@ -211,7 +211,7 @@
             tools:layout_editor_absoluteY="235dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3_1"
             android:layout_width="213dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -273,7 +273,6 @@
         android:layout_marginTop="212dp"
         android:background="#FB8500"
         android:text="結帳"
-        android:textColor="#f5f5f5"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -281,6 +280,7 @@
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
