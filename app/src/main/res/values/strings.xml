@@ -3,5 +3,9 @@
     <string name="title">Fooooood</string>
     <string name="nearRestaurant">附近熱門選項</string>
     <string name="allRestaurant">全部選項</string>
-
+    <string name="open">營業中</string>
+    <string name="close">休息中 </string>
+    <string name="store_name">Pizzzzzza</string>
+    <string name="accept">接單</string>
+    <string name="decline">拒單</string>
 </resources>

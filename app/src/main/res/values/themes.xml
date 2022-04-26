@@ -1,13 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
     <style name="Theme.Fooooood" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-=======
-    <style name="Theme.Fooooood" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
->>>>>>> 73ac1b7ec72b7bfdd07706ce3f174a166a6b999a
+<!--&gt;>>>>>> 73ac1b7ec72b7bfdd07706ce3f174a166a6b999a-->
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

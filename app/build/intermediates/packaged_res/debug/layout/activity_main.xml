@@ -53,13 +53,13 @@
             android:layout_marginBottom="14dp"
             app:srcCompat="@drawable/shopping_cart" />
 
-        <ImageButton
+        <Button
             android:id="@+id/button3"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@id/barTitle"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_alignLeft="@id/barTitle"
             android:layout_marginStart="25dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="352dp"

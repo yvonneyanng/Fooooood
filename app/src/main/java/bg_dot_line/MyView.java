@@ -10,7 +10,8 @@ import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.appproject.R;
+import com.example.fooooood.R;
+//import com.example.appproject.R;
 
 /**
  * TODO: document your custom view class.
