@@ -1,6 +1,9 @@
 package com.example.fooooood;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -27,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         recyclerColView.setAdapter(restaurantAdapter);
         restaurantRowAdapter = new RestaurantAdapter(this, getRowList(),R.layout.restaurant_row);
         recyclerRowView.setAdapter(restaurantRowAdapter);
+
     }
 
     private ArrayList<Restaurant> getList() {

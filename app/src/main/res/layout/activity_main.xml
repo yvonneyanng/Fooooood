@@ -165,9 +165,8 @@
             android:id="@+id/textView3_1"
             android:layout_width="213dp"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
+            android:gravity="center_vertical|right"
             android:text="海鮮"
-            android:textAlignment="viewEnd"
             android:textColor="#FB8500"
             android:textStyle="bold" />
 
@@ -175,9 +174,8 @@
             android:id="@+id/textView_price1"
             android:layout_width="318dp"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
+            android:gravity="center_vertical|right"
             android:text="$150"
-            android:textAlignment="viewEnd"
             android:textColor="#151515"
             android:textStyle="normal" />
     </androidx.cardview.widget.CardView>
@@ -195,17 +193,16 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
 
         <TextView
-            android:id="@+id/textView_price1"
+            android:id="@+id/textView_price2"
             android:layout_width="317dp"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
+            android:gravity="center_vertical|right"
             android:text="$150"
-            android:textAlignment="viewEnd"
             android:textColor="#151515"
             android:textStyle="normal" />
 
         <ImageView
-            android:id="@+id/imageView3_1"
+            android:id="@+id/imageView3_2"
             android:layout_width="124dp"
             android:layout_height="101dp"
             android:scaleType="fitCenter"
@@ -214,12 +211,11 @@
             tools:layout_editor_absoluteY="235dp" />
 
         <TextView
-            android:id="@+id/textView3_1"
+            android:id="@+id/textView3_2"
             android:layout_width="213dp"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
+            android:gravity="center_vertical|right"
             android:text="海鮮"
-            android:textAlignment="viewEnd"
             android:textColor="#FB8500"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="19dp"
