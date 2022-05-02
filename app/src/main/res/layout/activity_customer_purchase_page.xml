@@ -24,9 +24,9 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="7dp"
-                android:text="熱門選項"
+                android:text="@string/Hot"
                 android:textColor="@color/black"
-                android:textSize="16" />
+                android:textSize="16sp" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="176dp"
@@ -52,7 +52,7 @@
                         android:layout_marginTop="37dp"
                         android:text="夏威夷"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -65,7 +65,7 @@
                         android:layout_marginTop="25dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
-                        android:textSize="12" />
+                        android:textSize="12sp" />
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="109dp"
@@ -82,7 +82,7 @@
                         app:cardElevation="0dp">
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/food1"
                             android:layout_width="143dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
@@ -121,7 +121,7 @@
                         app:cardElevation="0dp">
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/food2"
                             android:layout_width="117dp"
                             android:layout_height="96dp"
                             android:scaleType="fitXY"
@@ -138,7 +138,7 @@
                         android:layout_marginTop="37dp"
                         android:text="蔬菜蘑菇"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -151,7 +151,7 @@
                         android:layout_marginTop="25dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
-                        android:textSize="12" />
+                        android:textSize="12sp" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -241,7 +241,7 @@
                 android:layout_marginBottom="10dp"
                 android:text="$15 外送費"
                 android:textColor="@color/white"
-                android:textSize="12" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/star_txt"
@@ -256,7 +256,7 @@
                 android:text="5.0"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/white"
-                android:textSize="12" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/arriveTime_txt"
@@ -271,14 +271,13 @@
                 android:text="15分鐘"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/white"
-                android:textSize="12" />
+                android:textSize="12sp" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="316dp"
-            android:layout_above="@+id/null"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="1dp">
 
@@ -292,7 +291,7 @@
                 android:layout_marginTop="7dp"
                 android:text="餐點"
                 android:textColor="@color/black"
-                android:textSize="16" />
+                android:textSize="16sp" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="379dp"
@@ -323,7 +322,7 @@
                         app:cardElevation="0dp">
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/food3"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
@@ -341,7 +340,7 @@
                         android:layout_toEndOf="@+id/MealPriceN1_txt"
                         android:text="夏威夷"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -354,15 +353,15 @@
                         android:layout_marginEnd="59dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
-                        android:textSize="12" />
+                        android:textSize="12sp" />
 
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="379"
-                android:layout_height="85"
+                android:layout_width="379dp"
+                android:layout_height="85dp"
                 android:layout_alignStart="@+id/hotMeals_txt2"
                 android:layout_alignTop="@+id/hotMeals_txt2"
                 android:layout_marginStart="4dp"
@@ -389,7 +388,7 @@
                         app:cardElevation="0dp">
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/food4"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
@@ -404,7 +403,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="186dp"
                         android:layout_marginTop="36dp"
-                        android:layout_toEndOf="@+id/MealN2_img"
+
                         android:text="火腿"
                         android:textColor="?android:attr/colorFocusedHighlight"
                         android:textSize="12dp"
@@ -420,7 +419,7 @@
                         android:layout_marginEnd="51dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
-                        android:textSize="12" />
+                        android:textSize="12sp" />
 
                 </RelativeLayout>
 
@@ -455,7 +454,7 @@
                         app:cardElevation="0dp">
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/food5"
                             android:layout_width="110dp"
                             android:layout_height="88dp"
                             android:scaleType="fitXY"
@@ -470,10 +469,9 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="174dp"
                         android:layout_marginTop="36dp"
-                        android:layout_toEndOf="@+id/MealN3_img"
                         android:text="蔬菜蘑菇"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12"
+                        android:textSize="12sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -486,7 +484,7 @@
                         android:layout_marginEnd="54dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
-                        android:textSize="12" />
+                        android:textSize="12sp" />
 
                 </RelativeLayout>
 

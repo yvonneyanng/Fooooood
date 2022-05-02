@@ -24,6 +24,10 @@
         <activity
             android:name="com.example.fooooood.MainActivity"
             android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.fooooood.LoginActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,6 +46,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

@@ -2,10 +2,16 @@
     <string name="app_name">Fooooood</string>
     <string name="title">Fooooood</string>
     <string name="nearRestaurant">附近熱門選項</string>
-    <string name="allRestaurant">全部選項</string>
+    <string name="Hot">附近熱門選項</string>
+    <string name="all">全部選項</string>
     <string name="open">營業中</string>
     <string name="close">休息中 </string>
     <string name="store_name">Pizzzzzza</string>
     <string name="accept">接單</string>
     <string name="decline">拒單</string>
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">second_fragment_label</string>
+    <string name="hello_first_fragment">hello_first_fragment</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
 </resources>
