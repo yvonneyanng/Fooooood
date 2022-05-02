@@ -20,6 +20,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/flag.png"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pizza_seafood.jpg.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pizza_seafood.jpg"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_restaurant_row.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/restaurant_row.xml"
     },
@@ -30,6 +34,14 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_shape_pressed.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shape_pressed.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_user1.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/user1.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pizza_mashroon.jpg.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pizza_mashroon.jpg"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_close.png.flat",
@@ -52,6 +64,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/bg_dot_line.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pizzafst.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pizzafst.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
@@ -64,12 +80,12 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/fast_delivery__1_.png"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_restaurant_col.xml.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/restaurant_col.xml"
-    },
-    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_analysis.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_analysis.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_restaurant_col.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/restaurant_col.xml"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
@@ -98,6 +114,10 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_shape_normal.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shape_normal.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pizza_mashroon2.jpg.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pizza_mashroon2.jpg"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -166,6 +186,14 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_noodle.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/noodle.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pizza_ham.jpg.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pizza_ham.jpg"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_customer_purchase_page.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_customer_purchase_page.xml"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
