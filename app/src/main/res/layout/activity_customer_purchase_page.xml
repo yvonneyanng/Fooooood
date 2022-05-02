@@ -35,11 +35,12 @@
                 android:layout_alignTop="@+id/hotMeals_txt"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="34dp"
-                app:cardBackgroundColor="@color/material_on_primary_disabled">
+                app:cardBackgroundColor="@color/material_on_primary_disabled"
+                app:cardCornerRadius="15dp">
 
                 <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="137dp">
+                    android:layout_width="174dp"
+                    android:layout_height="match_parent">
 
                     <TextView
                         android:id="@+id/hotMealN1_txt"
@@ -51,7 +52,8 @@
                         android:layout_marginTop="37dp"
                         android:text="夏威夷"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12" />
+                        android:textSize="12"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/hotMealPriceN1_txt"
@@ -59,23 +61,33 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/hotMealN1_txt"
                         android:layout_alignTop="@+id/hotMealN1_txt"
-                        android:layout_marginStart="3dp"
-                        android:layout_marginTop="19dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="25dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
                         android:textSize="12" />
 
-                    <ImageView
-                        android:id="@+id/hotMealN1_img"
-                        android:layout_width="176dp"
-                        android:layout_height="106dp"
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="109dp"
+                        android:layout_height="95dp"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentEnd="true"
-                        android:layout_marginStart="-30dp"
-                        android:layout_marginTop="6dp"
-                        android:layout_marginEnd="30dp"
-                        app:srcCompat="@drawable/Pizza_seafood" />
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="54dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="143dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pizza_hawaiian" />
+                    </androidx.cardview.widget.CardView>
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
@@ -86,12 +98,35 @@
                 android:layout_alignTop="@+id/hotMeals_txt"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="35dp"
-                android:layout_marginEnd="18dp"
-                app:cardBackgroundColor="@color/material_on_primary_disabled">
+                android:layout_marginEnd="19dp"
+                app:cardBackgroundColor="@color/material_on_primary_disabled"
+                app:cardCornerRadius="15dp">
 
                 <RelativeLayout
-                    android:layout_width="183dp"
-                    android:layout_height="149dp">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="113dp"
+                        android:layout_height="82dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="64dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="117dp"
+                            android:layout_height="96dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pizza_mashroon2" />
+                    </androidx.cardview.widget.CardView>
 
                     <TextView
                         android:id="@+id/hotMealN2_txt"
@@ -100,10 +135,11 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="133dp"
-                        android:layout_marginTop="34dp"
+                        android:layout_marginTop="37dp"
                         android:text="蔬菜蘑菇"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12" />
+                        android:textSize="12"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/hotMealPriceN2_txt"
@@ -111,25 +147,12 @@
                         android:layout_height="wrap_content"
                         android:layout_alignStart="@+id/hotMealN2_txt"
                         android:layout_alignTop="@+id/hotMealN2_txt"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="21dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="25dp"
                         android:text="$150"
                         android:textColor="?android:attr/colorForeground"
                         android:textSize="12" />
 
-                    <ImageView
-                        android:id="@+id/hotMealN2_img"
-                        android:layout_width="119dp"
-                        android:layout_height="100dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="59dp"
-                        android:adjustViewBounds="true"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/Pizza_mashroon2" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -187,23 +210,24 @@
                 android:scaleType="fitXY"
                 android:scrollbarDefaultDelayBeforeFade="40"
                 android:scrollbarFadeDuration="25"
-                app:srcCompat="@drawable/pizzaFst" />
+                app:srcCompat="@drawable/pizzafst" />
 
             <TextView
                 android:id="@+id/restaurantTitle_txt"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_width="256dp"
+                android:layout_height="36dp"
                 android:layout_below="@+id/appTitle_txt"
                 android:layout_alignBottom="@+id/restaurantMain_img"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="43dp"
-                android:layout_marginTop="122dp"
-                android:layout_marginEnd="304dp"
-                android:layout_marginBottom="44dp"
+                android:layout_marginTop="115dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="45dp"
                 android:text="Pizzzzzzza"
                 android:textColor="@color/white"
-                android:textSize="16" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/DeliveryFee_txt"
@@ -277,11 +301,34 @@
                 android:layout_alignTop="@+id/hotMeals_txt2"
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="26dp"
-                app:cardBackgroundColor="@color/material_on_primary_disabled">
+                app:cardBackgroundColor="@color/material_on_primary_disabled"
+                app:cardCornerRadius="15dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="98dp"
+                        android:layout_height="57dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="270dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pizza_hawaiian" />
+                    </androidx.cardview.widget.CardView>
 
                     <TextView
                         android:id="@+id/MealNameN1_txt"
@@ -289,12 +336,13 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        android:layout_marginStart="150dp"
-                        android:layout_marginTop="37dp"
+                        android:layout_marginStart="179dp"
+                        android:layout_marginTop="36dp"
                         android:layout_toEndOf="@+id/MealPriceN1_txt"
                         android:text="夏威夷"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12" />
+                        android:textSize="12"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/MealPriceN1_txt"
@@ -308,17 +356,6 @@
                         android:textColor="?android:attr/colorForeground"
                         android:textSize="12" />
 
-                    <ImageView
-                        android:id="@+id/MealN1_img"
-                        android:layout_width="263dp"
-                        android:layout_height="75dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="-86dp"
-                        android:layout_marginTop="7dp"
-                        android:layout_marginEnd="201dp"
-                        app:srcCompat="@drawable/Pizza_seafood" />
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
@@ -329,12 +366,35 @@
                 android:layout_alignStart="@+id/hotMeals_txt2"
                 android:layout_alignTop="@+id/hotMeals_txt2"
                 android:layout_marginStart="4dp"
-                android:layout_marginTop="123dp"
-                app:cardBackgroundColor="@color/material_on_primary_disabled">
+                android:layout_marginTop="120dp"
+                app:cardBackgroundColor="@color/material_on_primary_disabled"
+                app:cardCornerRadius="15dp">
 
                 <RelativeLayout
                     android:layout_width="372dp"
                     android:layout_height="83dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="98dp"
+                        android:layout_height="57dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="270dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pizza_ham" />
+                    </androidx.cardview.widget.CardView>
 
                     <TextView
                         android:id="@+id/MealNameN2_txt"
@@ -342,12 +402,13 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        android:layout_marginStart="162dp"
-                        android:layout_marginTop="39dp"
+                        android:layout_marginStart="186dp"
+                        android:layout_marginTop="36dp"
                         android:layout_toEndOf="@+id/MealN2_img"
                         android:text="火腿"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12" />
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/MealPriceN2_txt"
@@ -361,33 +422,45 @@
                         android:textColor="?android:attr/colorForeground"
                         android:textSize="12" />
 
-                    <ImageView
-                        android:id="@+id/MealN2_img"
-                        android:layout_width="221dp"
-                        android:layout_height="70dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="-51dp"
-                        android:layout_marginTop="9dp"
-                        android:layout_marginEnd="202dp"
-                        app:srcCompat="@drawable/Pizza_ham" />
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="379"
-                android:layout_height="85"
+                android:layout_width="379dp"
+                android:layout_height="85dp"
                 android:layout_alignStart="@+id/hotMeals_txt2"
                 android:layout_alignTop="@+id/hotMeals_txt2"
                 android:layout_marginStart="5dp"
-                android:layout_marginTop="220dp"
-                app:cardBackgroundColor="@color/material_on_primary_disabled">
+                android:layout_marginTop="215dp"
+                app:cardBackgroundColor="@color/material_on_primary_disabled"
+                app:cardCornerRadius="15dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="98dp"
+                        android:layout_height="57dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="270dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="110dp"
+                            android:layout_height="88dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/pizza_mashroon2" />
+                    </androidx.cardview.widget.CardView>
 
                     <TextView
                         android:id="@+id/MealNameN3_txt"
@@ -395,12 +468,13 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        android:layout_marginStart="163dp"
-                        android:layout_marginTop="37dp"
+                        android:layout_marginStart="174dp"
+                        android:layout_marginTop="36dp"
                         android:layout_toEndOf="@+id/MealN3_img"
                         android:text="蔬菜蘑菇"
                         android:textColor="?android:attr/colorFocusedHighlight"
-                        android:textSize="12" />
+                        android:textSize="12"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/MealPriceN3_txt"
@@ -414,17 +488,6 @@
                         android:textColor="?android:attr/colorForeground"
                         android:textSize="12" />
 
-                    <ImageView
-                        android:id="@+id/MealN3_img"
-                        android:layout_width="190dp"
-                        android:layout_height="73dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="-44dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="234dp"
-                        app:srcCompat="@drawable/Pizza_mashroon2" />
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>

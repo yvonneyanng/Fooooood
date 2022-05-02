@@ -16,12 +16,15 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Fooooood/app/src/main/res/layout/cardview.xml" value="0.4" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Fooooood/app/src/main/res/layout/restaurant_col.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Fooooood/app/src/main/res/layout/restaurant_row.xml" value="0.35128205128205126" />
+        <entry key="app/src/main/res/drawable/button_selector.xml" value="0.241" />
+        <entry key="app/src/main/res/drawable/shape_normal.xml" value="0.241" />
         <entry key="app/src/main/res/layout/activity_analysis.xml" value="0.15489130434782608" />
-        <entry key="app/src/main/res/layout/activity_customer_purchase_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_customer_purchase_page.xml" value="0.37761657476218025" />
         <entry key="app/src/main/res/layout/activity_edit.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.24322916666666666" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.24322916666666666" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1862116495768229" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.29745615504732065" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.399108378092448" />
+        <entry key="app/src/main/res/layout/activity_restaurant.xml" value="0.12318840579710146" />
         <entry key="app/src/main/res/layout/activity_restaurantMain.xml" value="0.24322916666666666" />
         <entry key="app/src/main/res/layout/edit_row.xml" value="0.24479166666666666" />
         <entry key="app/src/main/res/layout/restaurant_col.xml" value="0.24322916666666666" />
