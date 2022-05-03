@@ -1327,6 +1327,7 @@ color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_blue_400
 color light_blue_600
+color login_buttom_text
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2608,7 +2609,6 @@ id CTRL
 id DeliveryFee
 id DeliveryFee_txt
 id FUNCTION
-id FirstFragment
 id META
 id MealNameN1_txt
 id MealNameN2_txt
@@ -2622,7 +2622,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -2663,8 +2662,6 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2723,6 +2720,7 @@ id button
 id button2
 id button3
 id button4
+id button8
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2911,9 +2909,6 @@ id linearLayout
 id listMode
 id list_item
 id locale
-id loginBuyer
-id loginCourier
-id loginShop
 id ltr
 id masked
 id match_constraint
@@ -2972,7 +2967,6 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
-id nav_graph
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3193,6 +3187,9 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toggleButton
+id toggleButton2
+id toggleButton3
 id toolbar
 id toolbar_analysis
 id toolbar_edit
@@ -3423,7 +3420,6 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation nav_graph
 plurals mtrl_badge_content_description
 string Hot
 string abc_action_bar_home_description

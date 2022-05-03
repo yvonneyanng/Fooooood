@@ -72,7 +72,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputPassword"
-        app:layout_constraintVertical_bias="0.426" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <TextView
         android:id="@+id/textView6"
@@ -128,54 +128,65 @@
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
         app:layout_constraintVertical_bias="0.322" />
 
-    <LinearLayout
-        android:layout_width="333dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="40dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/textInputAccount"
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="註冊"
+        android:textColor="@color/mainColor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.377">
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.18" />
 
-        <Button
-            android:id="@+id/loginBuyer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_selector"
-            android:text="消費者"
-            android:textColor="#FB8500"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:checked="true"
+        android:text="消費者"
+        android:textColor="@color/black"
+        android:textOff="消費者"
+        android:textOn="消費者"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton3"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
 
-        <Button
-            android:id="@+id/loginShop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_selector"
-            android:text="店家"
-            android:textColor="#FB8500"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/button_selector"
+        android:text="外送員"
+        android:textOff="外送員"
+        android:textOn="外送員"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
 
-        <Button
-            android:id="@+id/loginCourier"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_selector"
-            android:text="外賣員"
-            android:textColor="#FB8500"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_selector"
+        android:text="店家"
+        android:textOff="店家"
+        android:textOn="店家"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
