@@ -176,6 +176,10 @@
         "source": "/Users/ycyyau/Fooooood/app/src/main/res/layout/activity_home.xml"
     },
     {
+        "merged": "/Users/ycyyau/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_customer_comment.xml.flat",
+        "source": "/Users/ycyyau/Fooooood/app/src/main/res/layout/activity_customer_comment.xml"
+    },
+    {
         "merged": "/Users/ycyyau/Fooooood/app/build/intermediates/merged_res/debug/drawable_shape_normal.xml.flat",
         "source": "/Users/ycyyau/Fooooood/app/src/main/res/drawable/shape_normal.xml"
     },
@@ -222,6 +226,10 @@
     {
         "merged": "/Users/ycyyau/Fooooood/app/build/intermediates/merged_res/debug/drawable_hawaiian.png.flat",
         "source": "/Users/ycyyau/Fooooood/app/src/main/res/drawable/hawaiian.png"
+    },
+    {
+        "merged": "/Users/ycyyau/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_flag.png.flat",
+        "source": "/Users/ycyyau/Fooooood/app/src/main/res/drawable-v24/flag.png"
     },
     {
         "merged": "/Users/ycyyau/Fooooood/app/build/intermediates/merged_res/debug/drawable_user__1_.png.flat",

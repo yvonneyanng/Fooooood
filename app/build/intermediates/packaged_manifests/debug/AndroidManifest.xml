@@ -19,12 +19,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Fooooood" >
         <activity
+            android:name="com.example.fooooood.CustomerComment"
+            android:exported="false" />
+        <activity
             android:name="com.example.fooooood.HomeActivity"
             android:exported="false" />
         <activity
             android:name="com.example.fooooood.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.fooooood.LoginActivity"
             android:exported="true" >

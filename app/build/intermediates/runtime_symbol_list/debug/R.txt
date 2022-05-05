@@ -3319,6 +3319,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_analysis 0x7f0c001c
+int layout activity_customer_comment 0x7f0c007d
 int layout activity_customer_purchase_page 0x7f0c001d
 int layout activity_edit 0x7f0c001e
 int layout activity_home 0x7f0c001f

@@ -3320,6 +3320,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_analysis
+layout activity_customer_comment
 layout activity_customer_purchase_page
 layout activity_edit
 layout activity_home
