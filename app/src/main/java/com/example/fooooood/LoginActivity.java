@@ -1,4 +1,3 @@
-
 package com.example.fooooood;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +24,10 @@ public class LoginActivity extends AppCompatActivity {
         customer = (ToggleButton) findViewById(R.id.toggleButton);
         restaurant = (ToggleButton) findViewById(R.id.toggleButton2);
         delivery = (ToggleButton) findViewById(R.id.toggleButton3);
+
+        customer.setChecked(false);
+        restaurant.setChecked(false);
+        delivery.setChecked(false);
 
         customer.setOnCheckedChangeListener(changeChecker);
         restaurant.setOnCheckedChangeListener(changeChecker);
