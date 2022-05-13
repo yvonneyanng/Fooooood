@@ -1327,7 +1327,6 @@ color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_blue_400
 color light_blue_600
-color login_buttom_text
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2521,7 +2520,6 @@ drawable errorimage
 drawable fast_delivery__1_
 drawable flag
 drawable hamburger
-drawable hawaiian
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2583,7 +2581,6 @@ drawable pasta
 drawable pizza
 drawable pizza_ham
 drawable pizza_hawaiian
-drawable pizza_mashroon
 drawable pizza_mashroon2
 drawable pizza_seafood
 drawable pizzafst
@@ -2591,7 +2588,6 @@ drawable seafood
 drawable send_message__1_
 drawable shape_normal
 drawable shape_pressed
-drawable shopping_cart
 drawable shoppingcart
 drawable test_custom_background
 drawable test_level_drawable
@@ -2599,8 +2595,6 @@ drawable titleuser
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user
-drawable user1
-drawable user__1_
 drawable user__2_
 id ALT
 id BOTTOM_END
@@ -2720,6 +2714,7 @@ id button
 id button2
 id button3
 id button4
+id button5
 id button8
 id buttonPanel
 id cache_measures
@@ -2822,6 +2817,7 @@ id easeInOut
 id easeOut
 id east
 id edit
+id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2879,8 +2875,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
+id imageButton3
+id imageButton4
 id imageView
 id imageView2
+id imageView3
 id imageView3_1
 id imageView3_2
 id immediateStop
@@ -3030,6 +3030,8 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
+id ratingBar2
 id ratio
 id rectangles
 id recyclerColView
@@ -3148,6 +3150,7 @@ id textStart
 id textTop
 id textView
 id textView10
+id textView11
 id textView13
 id textView15
 id textView17
@@ -3158,6 +3161,7 @@ id textView20
 id textView24
 id textView25
 id textView29
+id textView3
 id textView30
 id textView31
 id textView32
@@ -3167,8 +3171,10 @@ id textView35
 id textView36
 id textView3_1
 id textView3_2
+id textView4
 id textView5
 id textView6
+id textView7
 id textView8
 id textView9
 id textView_price1
