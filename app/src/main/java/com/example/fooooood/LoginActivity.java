@@ -57,10 +57,10 @@ public class LoginActivity extends AppCompatActivity {
 
     public void onGo(View v){
         Intent intent = new Intent();
-        if(toggle == R.id.toggleButton){
+        if(toggle == R.id.toggleButton){ // customer toggle is checked
             intent.setClass(this, HomeActivity.class);
             startActivity(intent);
-        }else if(toggle == R.id.toggleButton3){
+        } else if(toggle == R.id.toggleButton3){ // restaurant toggle is checked
             intent.setClass(this, RestaurantMainActivity.class);
             startActivity(intent);
         }

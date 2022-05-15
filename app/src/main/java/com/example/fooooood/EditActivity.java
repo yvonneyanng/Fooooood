@@ -15,7 +15,8 @@ import com.example.fooooood.RestaurantMainActivity;
 public class EditActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    String s_flavors[], s_price[];
+    String s_flavors[] = {"肉醬", "海鮮"};
+    String s_price[] = {"$ 150", "$ 180"};
     int images[] = {R.drawable.meat, R.drawable.seafood};
 
     @Override
@@ -34,8 +35,6 @@ public class EditActivity extends AppCompatActivity {
         });
 
 //        recyclerView = findViewById(R.id.recyclerView);
-//        s_flavors = getResources().getStringArray(R.array.flavors);
-//        s_price = getResources().getStringArray(R.array.price);
 //
 //        EditAdapter editAdapter = new EditAdapter(this, s_flavors, s_price, images);
 //        recyclerView.setAdapter(editAdapter);
