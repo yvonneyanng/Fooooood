@@ -47,7 +47,7 @@
 29            android:exported="false" />
 29-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:20:13-37
 30        <activity
-30-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:21:9-23:48
+30-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:21:9-23:39
 31            android:name="com.example.fooooood.MainActivity"
 31-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:22:13-41
 32            android:exported="true" />

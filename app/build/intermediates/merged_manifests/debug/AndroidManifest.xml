@@ -25,6 +25,9 @@
             android:name="com.example.fooooood.HomeActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.fooooood.RestaurantMainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.fooooood.MainActivity"
             android:exported="true" />
         <activity

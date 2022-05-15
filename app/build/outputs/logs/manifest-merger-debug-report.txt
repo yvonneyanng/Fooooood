@@ -125,7 +125,7 @@ ADDED from /Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:18:9-20:40
 	android:name
 		ADDED from /Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:19:13-51
 activity#com.example.fooooood.MainActivity
-ADDED from /Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:21:9-23:48
+ADDED from /Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:21:9-23:39
 	android:exported
 		ADDED from /Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:23:13-36
 	android:name

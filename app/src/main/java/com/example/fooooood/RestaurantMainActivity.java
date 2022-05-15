@@ -125,19 +125,19 @@ public class RestaurantMainActivity extends AppCompatActivity {
                 findViewById(R.id.order_info).setVisibility(View.GONE);
             }
         });
-        // edit menu
-        textEdit.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent_edit = new Intent(RestaurantMainActivity.this, EditActivity.class);
-                startActivity(intent_edit);
-            }
-        });
-        // analysis page
-        textAnalysis.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent_analysis = new Intent(RestaurantMainActivity.this, AnalysisActivity.class);
-                startActivity(intent_analysis);
-            }
-        });
+//        // edit menu
+//        textEdit.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent intent_edit = new Intent(RestaurantMainActivity.this, EditActivity.class);
+//                startActivity(intent_edit);
+//            }
+//        });
+//        // analysis page
+//        textAnalysis.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent intent_analysis = new Intent(RestaurantMainActivity.this, AnalysisActivity.class);
+//                startActivity(intent_analysis);
+//            }
+//        });
     }
 }
