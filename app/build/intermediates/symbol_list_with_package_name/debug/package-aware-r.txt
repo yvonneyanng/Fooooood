@@ -2912,7 +2912,6 @@ id listMode
 id list_item
 id locale
 id ltr
-id lv_menu
 id masked
 id match_constraint
 id match_parent
@@ -3051,6 +3050,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id rv_menu
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth

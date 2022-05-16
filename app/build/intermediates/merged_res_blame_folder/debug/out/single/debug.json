@@ -124,6 +124,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_coke.jpg.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/coke.jpg"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_edit_background.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/edit_background.xml"
     },
