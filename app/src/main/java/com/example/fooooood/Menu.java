@@ -1,17 +1,11 @@
 package com.example.fooooood;
 
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import androidx.annotation.NonNull;
-
-public class MyMenu {
+public class Menu {
     int Image;
     String Name;
     String Price;
 
-    public MyMenu(int image, String name, String price) {
+    public Menu(int image, String name, String price) {
         Image = image;
         Name = name;
         Price = price;

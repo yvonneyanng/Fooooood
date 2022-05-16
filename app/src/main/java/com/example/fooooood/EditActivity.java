@@ -1,47 +1,55 @@
 package com.example.fooooood;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
-import android.widget.ListView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.fooooood.Restaurant;
-import com.example.fooooood.RestaurantMainActivity;
-
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
+import java.util.List;
 
 public class EditActivity extends AppCompatActivity {
 
-    TextView tv_name;
-    TextView tv_price;
-    ListView listView;
+    private RecyclerView rcvMenu;
+    private FloatingActionButton btnFloating;
+    private MenuAdapter menuAdapter;
+    String name, price;
+//    List<Menu> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
-//        tv_name = findViewById(R.id.foodName);
-//        tv_price = findViewById(R.id.foodPrice);
-        listView = findViewById(R.id.lv_menu);
-        ArrayList<MyMenu> arrayList = new ArrayList<>();
 
-        arrayList.add(new MyMenu(R.drawable.meat, "肉醬", "$ 180"));
-        arrayList.add(new MyMenu(R.drawable.seafood, "海鮮", "$ 150"));
-        arrayList.add(new MyMenu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));
-        arrayList.add(new MyMenu(R.drawable.coke, "可樂", "$ 20"));
+        rcvMenu = findViewById(R.id.rv_menu);
+        btnFloating = findViewById(R.id.add);
+        menuAdapter = new MenuAdapter();
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        rcvMenu.setLayoutManager(linearLayoutManager);
+        menuAdapter.setData(getListUser());
+        rcvMenu.setAdapter(menuAdapter);
+        rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                if(dy > 0){
+                    btnFloating.hide();
+                } else {
+                    btnFloating.show();
+                }
+                super.onScrolled(recyclerView, dx, dy);
+            }
+        });
 
-        // custom adapter
-        EditAdapter menuAdapter = new EditAdapter(this, R.layout.edit_row, arrayList);
-        listView.setAdapter(menuAdapter);
-
-        TextView textBack = (TextView) findViewById(R.id.back_edit);
         // back to main page
+        TextView textBack = (TextView) findViewById(R.id.back_edit);
         textBack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(EditActivity.this, RestaurantMainActivity.class);
@@ -49,5 +57,37 @@ public class EditActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+//        btnFloating.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Dialog dialog = new Dialog(EditActivity.this);
+//                dialog.setContentView(R.layout.edit_menu);
+//
+//                EditText etName = dialog.findViewById(R.id.addName);
+//                EditText etPrice = dialog.findViewById(R.id.addPrice);
+//                Button btConfirm = dialog.findViewById(R.id.confirm);
+//
+//                name = etName.getText().toString();
+//                price = etPrice.getText().toString();
+//
+//                btConfirm.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        list.add(new Menu(R.drawable.meat, name, price));
+//                    }
+//                });
+//            }
+//        });
+    }
+    private List<Menu> getListUser() {
+        List<Menu> list = new ArrayList<>();
+        list.add(new Menu(R.drawable.meat, "肉醬", "$ 150"));
+        list.add(new Menu(R.drawable.seafood, "海鮮", "$ 180"));
+        list.add(new Menu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));
+        list.add(new Menu(R.drawable.coke, "可樂", "$ 20"));
+        list.add(new Menu(R.drawable.pizza_mashroon2, "蘑菇", "$ 130"));
+        list.add(new Menu(R.drawable.pizzafst, "總匯", "$ 150"));
+        return list;
     }
 }
