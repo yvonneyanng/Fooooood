@@ -1,5 +1,6 @@
 package com.example.fooooood;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -23,11 +24,23 @@ public class EditActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit);
 
         rcvMenu = findViewById(R.id.rv_menu);
+        btnFloating = findViewById(R.id.add);
         menuAdapter = new MenuAdapter();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         rcvMenu.setLayoutManager(linearLayoutManager);
         menuAdapter.setData(getListUser());
         rcvMenu.setAdapter(menuAdapter);
+        rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                if(dy > 0){
+                    btnFloating.hide();
+                } else {
+                    btnFloating.show();
+                }
+                super.onScrolled(recyclerView, dx, dy);
+            }
+        });
 
         // back to main page
         TextView textBack = (TextView) findViewById(R.id.back_edit);
@@ -38,6 +51,13 @@ public class EditActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnFloating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
     private List<Menu> getListUser() {
         List<Menu> list = new ArrayList<>();
@@ -45,6 +65,8 @@ public class EditActivity extends AppCompatActivity {
         list.add(new Menu(R.drawable.seafood, "海鮮", "$ 180"));
         list.add(new Menu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));
         list.add(new Menu(R.drawable.coke, "可樂", "$ 20"));
+        list.add(new Menu(R.drawable.pizza_mashroon2, "蘑菇", "$ 130"));
+        list.add(new Menu(R.drawable.pizzafst, "總匯", "$ 150"));
         return list;
     }
 }
