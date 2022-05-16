@@ -2677,6 +2677,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addName
+id addPrice
 id alertTitle
 id aligned
 id all
@@ -2767,6 +2769,7 @@ id closest
 id collapseActionView
 id complete
 id compress
+id confirm
 id confirm_button
 id constraint
 id contact
@@ -3352,6 +3355,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout edit_menu
 layout edit_row
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

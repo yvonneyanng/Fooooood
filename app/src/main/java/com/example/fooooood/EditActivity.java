@@ -4,9 +4,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
@@ -17,6 +21,8 @@ public class EditActivity extends AppCompatActivity {
     private RecyclerView rcvMenu;
     private FloatingActionButton btnFloating;
     private MenuAdapter menuAdapter;
+    String name, price;
+//    List<Menu> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,12 +58,27 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
-        btnFloating.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
+//        btnFloating.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Dialog dialog = new Dialog(EditActivity.this);
+//                dialog.setContentView(R.layout.edit_menu);
+//
+//                EditText etName = dialog.findViewById(R.id.addName);
+//                EditText etPrice = dialog.findViewById(R.id.addPrice);
+//                Button btConfirm = dialog.findViewById(R.id.confirm);
+//
+//                name = etName.getText().toString();
+//                price = etPrice.getText().toString();
+//
+//                btConfirm.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        list.add(new Menu(R.drawable.meat, name, price));
+//                    }
+//                });
+//            }
+//        });
     }
     private List<Menu> getListUser() {
         List<Menu> list = new ArrayList<>();
