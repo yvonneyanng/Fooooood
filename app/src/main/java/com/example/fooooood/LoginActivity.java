@@ -65,4 +65,10 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void goRegister(View v){
+        Intent intent = new Intent();
+        intent.setClass(this,RegisterActivity.class);
+        startActivity(intent);
+    }
 }
