@@ -2,56 +2,45 @@ package com.example.fooooood;
 
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class EditAdapter extends RecyclerView.Adapter<EditAdapter.MyViewHolder> {
+import java.util.ArrayList;
 
-    String data1[], data2[];
-    int images[];
-    Context context;
+public class EditAdapter extends ArrayAdapter<MyMenu> {
 
-    public EditAdapter(Context ct, String s1[], String s2[], int img[]){
-        context = ct;
-        data1 = s1;
-        data2 = s2;
-        images = img;
+    private Context context;
+    private int res;
+
+    public EditAdapter(@NonNull Context context, int resource, @NonNull ArrayList<MyMenu> objects) {
+        super(context, resource, objects);
+        this.context = context;
+        this.res = resource;
     }
 
     @NonNull
     @Override
-    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    // 設定 list view
+    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.edit_row, parent, false);
-        return new MyViewHolder(view);
-    }
+        convertView = inflater.inflate(res, parent, false);
 
-    @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.myText1.setText(data1[position]);
-        holder.myText2.setText(data2[position]);
-        holder.myImage.setImageResource(images[position]);
-    }
+        ImageView mealImage = convertView.findViewById(R.id.foodImg);
+        TextView mealName = convertView.findViewById(R.id.foodName);
+        TextView mealPrice = convertView.findViewById(R.id.foodPrice);
 
-    @Override
-    public int getItemCount() {
-        return data1.length;
-    }
-
-    public class MyViewHolder extends RecyclerView.ViewHolder{
-
-        TextView myText1, myText2;
-        ImageView myImage;
-        public MyViewHolder(@NonNull View itemView) {
-            super(itemView);
-            myText1 = itemView.findViewById(R.id.f1_name);
-            myText2 = itemView.findViewById(R.id.f1_price);
-            myImage = itemView.findViewById(R.id.f1_img);
-        }
+        // 設定 list item 裡要顯示的圖片、名稱、價錢
+        mealImage.setImageResource(getItem(position).getImage());
+        mealName.setText(getItem(position).getName());
+        mealPrice.setText(getItem(position).getPrice());
+        return convertView;
     }
 }

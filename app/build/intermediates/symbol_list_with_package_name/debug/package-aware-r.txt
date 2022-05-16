@@ -2509,6 +2509,7 @@ drawable button_selector
 drawable button_shape
 drawable check
 drawable close
+drawable coke
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2827,9 +2828,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id f1_img
-id f1_name
-id f1_price
 id fade
 id fill
 id fill_horizontal
@@ -2845,6 +2843,9 @@ id food2
 id food3
 id food4
 id food5
+id foodImg
+id foodName
+id foodPrice
 id forever
 id fragment_container_view_tag
 id frost
@@ -2899,6 +2900,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_menu
 id left
 id leftToRight
 id legacy
@@ -2910,6 +2912,7 @@ id listMode
 id list_item
 id locale
 id ltr
+id lv_menu
 id masked
 id match_constraint
 id match_parent

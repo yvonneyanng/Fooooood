@@ -6,23 +6,39 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.fooooood.Restaurant;
 import com.example.fooooood.RestaurantMainActivity;
 
+import java.util.ArrayList;
+
 public class EditActivity extends AppCompatActivity {
 
-    RecyclerView recyclerView;
-    String s_flavors[] = {"肉醬", "海鮮"};
-    String s_price[] = {"$ 150", "$ 180"};
-    int images[] = {R.drawable.meat, R.drawable.seafood};
+    TextView tv_name;
+    TextView tv_price;
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
+//        tv_name = findViewById(R.id.foodName);
+//        tv_price = findViewById(R.id.foodPrice);
+        listView = findViewById(R.id.lv_menu);
+        ArrayList<MyMenu> arrayList = new ArrayList<>();
+
+        arrayList.add(new MyMenu(R.drawable.meat, "肉醬", "$ 180"));
+        arrayList.add(new MyMenu(R.drawable.seafood, "海鮮", "$ 150"));
+        arrayList.add(new MyMenu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));
+        arrayList.add(new MyMenu(R.drawable.coke, "可樂", "$ 20"));
+
+        // custom adapter
+        EditAdapter menuAdapter = new EditAdapter(this, R.layout.edit_row, arrayList);
+        listView.setAdapter(menuAdapter);
 
         TextView textBack = (TextView) findViewById(R.id.back_edit);
         // back to main page
@@ -33,11 +49,5 @@ public class EditActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-//        recyclerView = findViewById(R.id.recyclerView);
-//
-//        EditAdapter editAdapter = new EditAdapter(this, s_flavors, s_price, images);
-//        recyclerView.setAdapter(editAdapter);
-//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 }

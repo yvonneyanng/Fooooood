@@ -2508,6 +2508,7 @@ int drawable button_selector 0x7f080062
 int drawable button_shape 0x7f080063
 int drawable check 0x7f080064
 int drawable close 0x7f080065
+int drawable coke 0x7f0800bd
 int drawable design_fab_background 0x7f080066
 int drawable design_ic_visibility 0x7f080067
 int drawable design_ic_visibility_off 0x7f080068
@@ -2826,9 +2827,6 @@ int id enterAlwaysCollapsed 0x7f0900e3
 int id exitUntilCollapsed 0x7f0900e4
 int id expand_activities_button 0x7f0900e5
 int id expanded_menu 0x7f0900e6
-int id f1_img 0x7f0900e7
-int id f1_name 0x7f0900e8
-int id f1_price 0x7f0900e9
 int id fade 0x7f0900ea
 int id fill 0x7f0900eb
 int id fill_horizontal 0x7f0900ec
@@ -2844,6 +2842,9 @@ int id food2 0x7f0900f5
 int id food3 0x7f0900f6
 int id food4 0x7f0900f7
 int id food5 0x7f0900f8
+int id foodImg 0x7f090283
+int id foodName 0x7f090284
+int id foodPrice 0x7f090285
 int id forever 0x7f0900f9
 int id fragment_container_view_tag 0x7f0900fa
 int id frost 0x7f0900fb
@@ -2898,6 +2899,7 @@ int id jumpToEnd 0x7f09012b
 int id jumpToStart 0x7f09012c
 int id labeled 0x7f09012d
 int id layout 0x7f09012e
+int id layout_menu 0x7f090286
 int id left 0x7f09012f
 int id leftToRight 0x7f090130
 int id legacy 0x7f090131
@@ -2909,6 +2911,7 @@ int id listMode 0x7f090136
 int id list_item 0x7f090137
 int id locale 0x7f090138
 int id ltr 0x7f090139
+int id lv_menu 0x7f090287
 int id masked 0x7f09013a
 int id match_constraint 0x7f09013b
 int id match_parent 0x7f09013c
