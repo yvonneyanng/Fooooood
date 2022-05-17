@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fooooood">
         <activity
+            android:name=".DriverNewOrder"
+            android:exported="false" />
+        <activity
+            android:name=".DriverHome"
+            android:exported="false" />
+        <activity
             android:name=".CustomerComment"
             android:exported="false" />
         <activity

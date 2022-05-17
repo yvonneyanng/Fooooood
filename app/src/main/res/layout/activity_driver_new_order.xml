@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverNewOrder">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="新訂單！"
+        android:textColor="@color/mainColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="349dp"
+        android:layout_height="417dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.179">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="$56"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="84dp"
+            android:layout_height="141dp"
+            android:gravity="bottom|center_vertical"
+            android:text="陳*明"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/mainColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="326dp"
+            android:layout_height="142dp"
+            android:gravity="bottom"
+            android:text="091234567"
+            android:textAlignment="viewEnd"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="135dp"
+            android:layout_height="204dp"
+            android:gravity="bottom|end"
+            android:text="Pizzzzzzza"
+            android:textColor="#65382A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="198dp"
+            android:layout_height="240dp"
+            android:gravity="bottom|end"
+            android:text="台中市西屯區文華路100號"
+            android:textColor="#9F5743"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="68dp"
+            android:layout_height="292dp"
+            android:gravity="bottom|end"
+            android:text="海鮮"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="68dp"
+            android:layout_height="345dp"
+            android:gravity="bottom|end"
+            android:text="可樂"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="68dp"
+            android:layout_height="390dp"
+            android:gravity="bottom|end"
+            android:text="總計"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="328dp"
+            android:layout_height="345dp"
+            android:gravity="bottom|end"
+            android:text="$150"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="328dp"
+            android:layout_height="391dp"
+            android:gravity="bottom|end"
+            android:text="$300"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="327dp"
+            android:layout_height="292dp"
+            android:gravity="bottom|end"
+            android:text="$150"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="131dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/shape_normal"
+        android:text="不接取"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="129dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/shape_normal"
+        android:text="接取"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

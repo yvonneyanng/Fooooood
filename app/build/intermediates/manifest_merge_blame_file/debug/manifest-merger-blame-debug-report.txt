@@ -6,110 +6,110 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml
+8-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml
+9-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:5:5-36:19
+11-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:5:5-36:19
 12        android:allowBackup="true"
-12-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:6:9-35
+12-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] /Users/yvonne/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] /Users/ycyyau/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:7:9-43
+15-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:8:9-41
+16-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:9:9-54
+17-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:10:9-35
+18-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.Fooooood" >
-20-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:11:9-46
+20-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:11:9-46
 21        <activity
-21-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:12:9-14:40
+21-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:12:9-14:40
 22            android:name="com.example.fooooood.CustomerComment"
-22-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:13:13-44
+22-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:13:13-44
 23            android:exported="false" />
-23-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:14:13-37
+23-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:14:13-37
 24        <activity
-24-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:15:9-17:40
+24-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:15:9-17:40
 25            android:name="com.example.fooooood.HomeActivity"
-25-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:16:13-41
+25-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:16:13-41
 26            android:exported="false" />
-26-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:17:13-37
+26-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:17:13-37
 27        <activity
-27-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:18:9-20:40
+27-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:18:9-20:40
 28            android:name="com.example.fooooood.RestaurantMainActivity"
-28-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:19:13-51
+28-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:19:13-51
 29            android:exported="false" />
-29-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:20:13-37
+29-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:20:13-37
 30        <activity
-30-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:21:9-23:40
+30-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:21:9-23:40
 31            android:name="com.example.fooooood.EditActivity"
-31-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:22:13-41
+31-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:22:13-41
 32            android:exported="false" />
-32-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:23:13-37
+32-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:23:13-37
 33        <activity
-33-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:24:9-26:39
+33-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:24:9-26:39
 34            android:name="com.example.fooooood.MainActivity"
-34-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:25:13-41
+34-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:25:13-41
 35            android:exported="true" />
-35-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:26:13-36
+35-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:26:13-36
 36        <activity
-36-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:27:9-35:20
+36-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:27:9-35:20
 37            android:name="com.example.fooooood.LoginActivity"
-37-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:28:13-42
+37-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:28:13-42
 38            android:exported="true" >
-38-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:29:13-36
+38-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:29:13-36
 39            <intent-filter>
-39-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:30:13-34:29
+39-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:30:13-34:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:31:17-69
-40-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:31:25-66
+40-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:31:17-69
+40-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:31:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:33:17-77
-42-->/Users/yvonne/Fooooood/app/src/main/AndroidManifest.xml:33:27-74
+42-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:33:17-77
+42-->/Users/ycyyau/Desktop/Fooooood/app/src/main/AndroidManifest.xml:33:27-74
 43            </intent-filter>
 44        </activity>
 45
 46        <provider
-46-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
 48            android:authorities="com.example.fooooood.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
 49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
 50            <meta-data
-50-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
 52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
 53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yvonne/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ycyyau/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yvonne/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ycyyau/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/yvonne/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ycyyau/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 56        </provider>
 57
 58        <uses-library
-58-->[androidx.window:window:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+58-->[androidx.window:window:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
 59            android:name="androidx.window.extensions"
-59-->[androidx.window:window:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+59-->[androidx.window:window:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
 60            android:required="false" />
-60-->[androidx.window:window:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+60-->[androidx.window:window:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
 61        <uses-library
-61-->[androidx.window:window:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+61-->[androidx.window:window:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
 62            android:name="androidx.window.sidecar"
-62-->[androidx.window:window:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+62-->[androidx.window:window:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
 63            android:required="false" />
-63-->[androidx.window:window:1.0.0] /Users/yvonne/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+63-->[androidx.window:window:1.0.0] /Users/ycyyau/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
 64    </application>
 65
 66</manifest>
