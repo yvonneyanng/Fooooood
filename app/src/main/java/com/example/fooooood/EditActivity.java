@@ -9,10 +9,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
@@ -73,15 +77,30 @@ public class EditActivity extends AppCompatActivity {
                 EditText etName = dialog.findViewById(R.id.addName);
                 EditText etPrice = dialog.findViewById(R.id.addPrice);
                 Button btConfirm = dialog.findViewById(R.id.confirm);
+                Button btCancel = dialog.findViewById(R.id.cancel);
 
+                dialog.show();
                 btConfirm.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        list.add(new Menu(R.drawable.unknown, etName.getText().toString(), "$ " + etPrice.getText().toString()));
+                        if (TextUtils.isEmpty(etName.getText().toString()) && TextUtils.isEmpty(etPrice.getText().toString())){
+                            Toast.makeText(EditActivity.this, "欄位不可為空白", Toast.LENGTH_LONG).show();
+                        } else if (TextUtils.isEmpty(etName.getText().toString())){
+                            Toast.makeText(EditActivity.this, "請輸入餐點名稱", Toast.LENGTH_LONG).show();
+                        } else if (TextUtils.isEmpty(etPrice.getText().toString())){
+                            Toast.makeText(EditActivity.this, "請輸入價格", Toast.LENGTH_LONG).show();
+                        } else {
+                            list.add(new Menu(R.drawable.unknown, etName.getText().toString(), "$ " + etPrice.getText().toString()));
+                            dialog.dismiss();
+                        }
+                    }
+                });
+                btCancel.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
                         dialog.dismiss();
                     }
                 });
-                dialog.show();
             }
         });
     }

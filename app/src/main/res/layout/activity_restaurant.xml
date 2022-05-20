@@ -17,7 +17,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:background="@color/orange"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
@@ -28,24 +28,27 @@
         <TextView
             android:id="@+id/analysis"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="75dp"
+            android:layout_marginEnd="90dp"
+            android:gravity="center"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
             android:text="分析"
             android:textColor="#FFFFFF"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar"
             app:layout_constraintEnd_toStartOf="@+id/toolbar_title"
-            app:layout_constraintStart_toStartOf="@+id/toolbar"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
@@ -61,19 +64,21 @@
         <TextView
             android:id="@+id/edit"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="55dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="90dp"
             android:layout_marginTop="5dp"
+            android:gravity="center"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
-            android:text="編輯菜單"
+            android:text="菜單"
             android:textColor="#FFFFFF"
+            android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-            app:layout_constraintEnd_toEndOf="@+id/toolbar"
             app:layout_constraintStart_toEndOf="@+id/toolbar_title"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -134,7 +139,6 @@
         android:id="@+id/linearLayout"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:paddingLeft="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,7 +151,6 @@
             android:id="@+id/orders"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
             android:layout_marginBottom="8dp"
             android:text="外送訂單"
             android:textColor="#000000"

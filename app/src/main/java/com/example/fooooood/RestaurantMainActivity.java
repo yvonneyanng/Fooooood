@@ -132,12 +132,12 @@ public class RestaurantMainActivity extends AppCompatActivity {
                 startActivity(intent_edit);
             }
         });
-//        // analysis page
-//        textAnalysis.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                Intent intent_analysis = new Intent(RestaurantMainActivity.this, AnalysisActivity.class);
-//                startActivity(intent_analysis);
-//            }
-//        });
+        // analysis page
+        textAnalysis.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent_analysis = new Intent(RestaurantMainActivity.this, AnalysisActivity.class);
+                startActivity(intent_analysis);
+            }
+        });
     }
 }

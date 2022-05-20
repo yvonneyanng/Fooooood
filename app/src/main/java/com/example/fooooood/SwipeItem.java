@@ -8,7 +8,7 @@ public class SwipeItem extends ItemTouchHelper.SimpleCallback {
 
     MenuAdapter mMenuAdapter;
     SwipeItem(MenuAdapter menuAdapter) {
-        super(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT);
+        super(0, ItemTouchHelper.LEFT);
         this.mMenuAdapter = menuAdapter;
     }
 

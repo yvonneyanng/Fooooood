@@ -37,6 +37,9 @@
             android:name="com.example.fooooood.EditActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.fooooood.AnalysisActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.fooooood.MainActivity"
             android:exported="true" />
         <activity

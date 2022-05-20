@@ -52,6 +52,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/shape_pressed.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_edit.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/edit.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_close.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/close.png"
     },

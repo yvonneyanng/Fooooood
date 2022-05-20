@@ -18,7 +18,7 @@ public class AnalysisActivity extends AppCompatActivity {
         // back to main page
         textAnalysis.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(AnalysisActivity.this, MainActivity.class);
+                Intent intent = new Intent(AnalysisActivity.this, RestaurantMainActivity.class);
                 startActivity(intent);
             }
         });

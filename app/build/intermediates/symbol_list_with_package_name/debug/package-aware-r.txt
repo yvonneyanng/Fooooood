@@ -2516,6 +2516,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable down_arrow__1_
+drawable edit
 drawable edit_background
 drawable errorimage
 drawable fast_delivery__1_
@@ -2725,6 +2726,7 @@ id button8
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel
 id cancel_button
 id cardView
 id cardView2
@@ -3034,6 +3036,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id please_add
 id position
 id postLayout
 id progress_circular
@@ -3222,6 +3225,7 @@ id toggleButton2
 id toggleButton3
 id toggleButton4
 id toolbar
+id toolbar2
 id toolbar_analysis
 id toolbar_edit
 id toolbar_layout2
