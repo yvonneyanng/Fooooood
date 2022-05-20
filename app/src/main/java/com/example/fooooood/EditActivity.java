@@ -82,7 +82,6 @@ public class EditActivity extends AppCompatActivity {
         });
     }
     private List<Menu> getListUser() {
-//        List<Menu> list = new ArrayList<>();
         list.add(new Menu(R.drawable.meat, "肉醬", "$ 150"));
         list.add(new Menu(R.drawable.seafood, "海鮮", "$ 180"));
         list.add(new Menu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));
