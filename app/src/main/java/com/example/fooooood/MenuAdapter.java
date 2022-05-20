@@ -45,6 +45,11 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
         return 0;
     }
 
+    public void deleteItem(int position) {
+        this.myListMenu.remove(position);
+        notifyItemRemoved(position);
+    }
+
     public class MenuViewHolder extends RecyclerView.ViewHolder{
 
         private ImageView img;

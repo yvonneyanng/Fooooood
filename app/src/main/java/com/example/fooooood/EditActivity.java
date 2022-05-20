@@ -2,6 +2,7 @@ package com.example.fooooood;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -36,6 +37,9 @@ public class EditActivity extends AppCompatActivity {
         rcvMenu.setLayoutManager(linearLayoutManager);
         menuAdapter.setData(getListUser());
         rcvMenu.setAdapter(menuAdapter);
+
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeItem(menuAdapter));
+        itemTouchHelper.attachToRecyclerView(rcvMenu);
 
         // hide and show the floating action button while scrolling
         rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
