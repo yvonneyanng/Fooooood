@@ -22,7 +22,7 @@ public class EditActivity extends AppCompatActivity {
     private FloatingActionButton btnFloating;
     private MenuAdapter menuAdapter;
     String name, price;
-//    List<Menu> list = new ArrayList<>();
+    List<Menu> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,8 @@ public class EditActivity extends AppCompatActivity {
         rcvMenu.setLayoutManager(linearLayoutManager);
         menuAdapter.setData(getListUser());
         rcvMenu.setAdapter(menuAdapter);
+
+        // hide and show the floating action button while scrolling
         rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
@@ -58,30 +60,29 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
-//        btnFloating.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Dialog dialog = new Dialog(EditActivity.this);
-//                dialog.setContentView(R.layout.edit_menu);
-//
-//                EditText etName = dialog.findViewById(R.id.addName);
-//                EditText etPrice = dialog.findViewById(R.id.addPrice);
-//                Button btConfirm = dialog.findViewById(R.id.confirm);
-//
-//                name = etName.getText().toString();
-//                price = etPrice.getText().toString();
-//
-//                btConfirm.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        list.add(new Menu(R.drawable.meat, name, price));
-//                    }
-//                });
-//            }
-//        });
+        btnFloating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Dialog dialog = new Dialog(EditActivity.this);
+                dialog.setContentView(R.layout.edit_menu);
+
+                EditText etName = dialog.findViewById(R.id.addName);
+                EditText etPrice = dialog.findViewById(R.id.addPrice);
+                Button btConfirm = dialog.findViewById(R.id.confirm);
+
+                btConfirm.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        list.add(new Menu(R.drawable.unknown, etName.getText().toString(), "$ " + etPrice.getText().toString()));
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
     }
     private List<Menu> getListUser() {
-        List<Menu> list = new ArrayList<>();
+//        List<Menu> list = new ArrayList<>();
         list.add(new Menu(R.drawable.meat, "肉醬", "$ 150"));
         list.add(new Menu(R.drawable.seafood, "海鮮", "$ 180"));
         list.add(new Menu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));

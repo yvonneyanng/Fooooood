@@ -2595,6 +2595,7 @@ drawable test_level_drawable
 drawable titleuser
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable unknown
 drawable user
 drawable user__2_
 id ALT

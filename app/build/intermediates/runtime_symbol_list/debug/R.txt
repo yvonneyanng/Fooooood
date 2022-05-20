@@ -2594,6 +2594,7 @@ int drawable test_level_drawable 0x7f0800b8
 int drawable titleuser 0x7f0800b9
 int drawable tooltip_frame_dark 0x7f0800ba
 int drawable tooltip_frame_light 0x7f0800bb
+int drawable unknown 0x7f0800be
 int drawable user 0x7f0800bc
 int drawable user__2_ 0x7f0800bd
 int id ALT 0x7f090000
