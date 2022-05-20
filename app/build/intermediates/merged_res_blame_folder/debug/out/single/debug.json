@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_order_list.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/order_list.xml"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_driver_new_order.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_driver_new_order.xml"
     },
@@ -228,6 +232,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_questionmark.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/questionmark.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_button_selector.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/button_selector.xml"
     },
@@ -250,5 +258,9 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_image.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/image.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_client_list.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/client_list.xml"
     }
 ]

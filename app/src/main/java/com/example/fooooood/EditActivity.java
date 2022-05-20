@@ -26,7 +26,6 @@ public class EditActivity extends AppCompatActivity {
     private RecyclerView rcvMenu;
     private FloatingActionButton btnFloating;
     private MenuAdapter menuAdapter;
-    String name, price;
     List<Menu> list = new ArrayList<>();
 
     @Override
@@ -49,12 +48,12 @@ public class EditActivity extends AppCompatActivity {
         rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
-                if(dy > 0){
-                    btnFloating.hide();
-                } else {
-                    btnFloating.show();
-                }
-                super.onScrolled(recyclerView, dx, dy);
+            if(dy > 0){
+                btnFloating.hide();
+            } else {
+                btnFloating.show();
+            }
+            super.onScrolled(recyclerView, dx, dy);
             }
         });
 

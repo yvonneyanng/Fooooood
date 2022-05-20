@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="75dp"
+            android:layout_marginEnd="90dp"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
@@ -56,7 +56,6 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar_edit"
             app:layout_constraintEnd_toStartOf="@+id/toolbar_title2"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -80,6 +79,7 @@
         android:layout_height="630dp"
         android:layout_marginTop="5dp"
         android:padding="10dp"
+        android:overScrollMode="ifContentScrolls"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
