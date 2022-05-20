@@ -5,12 +5,14 @@ public class Client {
     String name;
     String number;
     String time;
+    String price;
 
-    public Client(int status, String name, String number, String time) {
+    public Client(int status, String name, String number, String time, String price) {
         this.status = status;
         this.name = name;
         this.number = number;
         this.time = time;
+        this.price = price;
     }
 
     public int getStatus() {
@@ -43,5 +45,13 @@ public class Client {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 }

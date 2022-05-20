@@ -117,7 +117,8 @@
             android:textOff="休息中"
             android:textOn="營業中"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/status_text"

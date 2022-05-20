@@ -160,6 +160,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/shoppingcart.png"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_order_dialog.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/order_dialog.xml"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_seafood.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/seafood.png"
     },

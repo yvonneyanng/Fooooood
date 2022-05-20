@@ -2578,6 +2578,7 @@ int drawable notification_template_icon_bg 0x7f0800a8
 int drawable notification_template_icon_low_bg 0x7f0800a9
 int drawable notification_tile_bg 0x7f0800aa
 int drawable notify_panel_notification_icon_bg 0x7f0800ab
+int drawable order_dialog 0x7f0800c1
 int drawable pasta 0x7f0800ac
 int drawable pizza 0x7f0800ad
 int drawable pizza_ham 0x7f0800ae
@@ -2622,6 +2623,7 @@ int id SYM 0x7f090013
 int id TOP_END 0x7f090014
 int id TOP_START 0x7f090015
 int id accelerate 0x7f090016
+int id accept 0x7f090017
 int id accessibility_action_clickable_span 0x7f090018
 int id accessibility_custom_action_0 0x7f090019
 int id accessibility_custom_action_1 0x7f09001a
@@ -2727,6 +2729,7 @@ int id cache_measures 0x7f09007d
 int id callMeasure 0x7f09007e
 int id cancel 0x7f09007f
 int id cancel_button 0x7f090080
+int id card 0x7f0902a8
 int id cardView 0x7f090081
 int id cardView2 0x7f090082
 int id cardView3 0x7f090083
@@ -2744,6 +2747,7 @@ int id chip1 0x7f09008e
 int id chip2 0x7f09008f
 int id chip3 0x7f090090
 int id chip_group 0x7f090091
+int id choice 0x7f0902a6
 int id chronometer 0x7f090092
 int id circle_center 0x7f090093
 int id clear_text 0x7f090094
@@ -2752,6 +2756,7 @@ int id clip_vertical 0x7f0900aa
 int id clockwise 0x7f0900ab
 int id closest 0x7f0900ac
 int id collapseActionView 0x7f0900ad
+int id complete 0x7f0900ae
 int id compress 0x7f0900af
 int id confirm 0x7f0900b0
 int id confirm_button 0x7f0900b1
@@ -2773,6 +2778,7 @@ int id date 0x7f0900c0
 int id date_picker_actions 0x7f0900c1
 int id decelerate 0x7f0900c2
 int id decelerateAndComplete 0x7f0900c3
+int id decline 0x7f0900c4
 int id decor_content_parent 0x7f0900c5
 int id default_activity_button 0x7f0900c6
 int id deltaRelative 0x7f0900c7
@@ -2997,6 +3003,7 @@ int id pin 0x7f0901b4
 int id please_add 0x7f0901b5
 int id position 0x7f0901b6
 int id postLayout 0x7f0901b7
+int id price 0x7f0902a9
 int id progress_circular 0x7f0901b8
 int id progress_horizontal 0x7f0901b9
 int id radio 0x7f0901ba

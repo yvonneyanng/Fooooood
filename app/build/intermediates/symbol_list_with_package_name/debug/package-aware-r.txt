@@ -2579,6 +2579,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable order_dialog
 drawable pasta
 drawable pizza
 drawable pizza_ham
@@ -2623,6 +2624,7 @@ id SYM
 id TOP_END
 id TOP_START
 id accelerate
+id accept
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2728,6 +2730,7 @@ id cache_measures
 id callMeasure
 id cancel
 id cancel_button
+id card
 id cardView
 id cardView2
 id cardView3
@@ -2745,6 +2748,7 @@ id chip1
 id chip2
 id chip3
 id chip_group
+id choice
 id chronometer
 id circle_center
 id clear_text
@@ -2753,6 +2757,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id complete
 id compress
 id confirm
 id confirm_button
@@ -2774,6 +2779,7 @@ id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
+id decline
 id decor_content_parent
 id default_activity_button
 id deltaRelative
@@ -2998,6 +3004,7 @@ id pin
 id please_add
 id position
 id postLayout
+id price
 id progress_circular
 id progress_horizontal
 id radio
