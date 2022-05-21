@@ -68,13 +68,13 @@ public class RestaurantMainActivity extends AppCompatActivity {
     }
 
     private List<Client> getListUser() {
-        clientList.add(new Client(R.drawable.questionmark, "陳小姐", "0911111111", "1:00 PM", "$ 100"));
-        clientList.add(new Client(R.drawable.close, "何先生", "0922222222", "1:30 PM", "$ 100"));
-        clientList.add(new Client(R.drawable.check, "林小姐", "0933333333", "2:00 PM", "$ 190"));
-        clientList.add(new Client(R.drawable.check, "王先生", "0944444444", "2:30 PM", "$ 220"));
-        clientList.add(new Client(R.drawable.close, "陳小姐", "0955555555", "3:00 PM", "$ 100"));
-        clientList.add(new Client(R.drawable.check, "何先生", "0966666666", "3:30 PM", "$ 180"));
-        clientList.add(new Client(R.drawable.close, "林先生", "0977777777", "4:00 PM", "$ 100"));
+        clientList.add(new Client(R.drawable.incoming, "陳小姐", "0911111111", "1:00 PM", "是否接受此訂單？"));
+        clientList.add(new Client(R.drawable.close, "何先生", "0922222222", "1:30 PM", "您已拒絕此訂單！"));
+        clientList.add(new Client(R.drawable.check, "林小姐", "0933333333", "2:00 PM", "您已完成此訂單！"));
+        clientList.add(new Client(R.drawable.check, "王先生", "0944444444", "2:30 PM", "您已完成此訂單！"));
+        clientList.add(new Client(R.drawable.close, "陳小姐", "0955555555", "3:00 PM", "您已拒絕訂單！"));
+        clientList.add(new Client(R.drawable.check, "何先生", "0966666666", "3:30 PM", "您已完成此訂單！"));
+        clientList.add(new Client(R.drawable.close, "林先生", "0977777777", "4:00 PM", "您已拒絕訂單！"));
         return clientList;
     }
 }

@@ -96,6 +96,14 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_doing.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/doing.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_nostar.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/nostar.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-v24_titleuser.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable-v24/titleuser.png"
     },
@@ -180,6 +188,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/send_message__1_.png"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_two.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/two.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_hamburger.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/hamburger.png"
     },
@@ -228,6 +240,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_customer_purchase_page.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_analysis_blocks.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/analysis_blocks.xml"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
@@ -236,8 +252,12 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_questionmark.png.flat",
-        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/questionmark.png"
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_three.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/three.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_one.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/one.png"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_button_selector.xml.flat",
@@ -246,6 +266,10 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_edit_menu.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/edit_menu.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_star.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/star.png"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_pasta.png.flat",
@@ -262,6 +286,10 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_image.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/image.png"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_incoming.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/incoming.png"
     },
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_client_list.xml.flat",

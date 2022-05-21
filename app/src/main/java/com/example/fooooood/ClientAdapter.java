@@ -2,10 +2,8 @@ package com.example.fooooood;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,15 +15,11 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
 
 public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientViewHolder>{
 
     private List<Client> myListClient;
-    int changed = 0;
-    int orderCompleteOrDecline = 0;
 
     public void setData(List<Client> list){
         this.myListClient = list;
@@ -55,20 +49,25 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
                 AlertDialog.Builder builder = new AlertDialog.Builder(view.getRootView().getContext());
                 View dialogView = LayoutInflater.from(view.getRootView().getContext()).inflate(R.layout.order_list, null);
                 Dialog dialog;
-                TextView totalPrice = dialogView.findViewById(R.id.price);
+                TextView progress = dialogView.findViewById(R.id.progress);
                 Button accept = dialogView.findViewById(R.id.accept);
                 Button decline = dialogView.findViewById(R.id.decline);
                 Button complete = dialogView.findViewById(R.id.complete);
-
-                if(client.status == R.drawable.check || client.status == R.drawable.close || orderCompleteOrDecline == 1){
+                if (client.status == R.drawable.check || client.status == R.drawable.close) {
+                    if(client.status == R.drawable.check){
+                        progress.setText("您已完成此訂單！");
+                    } else {
+                        progress.setText("您已拒絕此訂單！");
+                    }
                     accept.setVisibility(View.GONE);
                     decline.setVisibility(View.GONE);
                     complete.setVisibility(View.GONE);
-                } else if(client.status == R.drawable.questionmark && changed == 0){
+                } else if(client.status == R.drawable.incoming){
+                    progress.setText("是否接受此訂單？");
                     accept.setVisibility(View.VISIBLE);
                     decline.setVisibility(View.VISIBLE);
                     complete.setVisibility(View.GONE);
-                } else if(client.status == R.drawable.questionmark && changed == 1){
+                } else if(client.status == R.drawable.doing){
                     accept.setVisibility(View.GONE);
                     decline.setVisibility(View.GONE);
                     complete.setVisibility(View.VISIBLE);
@@ -85,14 +84,15 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
                     dialog.getWindow().setAttributes(lp);
                 }
 
-                totalPrice.setText(client.getPrice());
                 accept.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         accept.setVisibility(View.GONE);
                         decline.setVisibility(View.GONE);
                         complete.setVisibility(View.VISIBLE);
-                        changed = 1;
+                        holder.status.setImageResource(R.drawable.doing);
+                        client.status = R.drawable.doing;
+                        progress.setText("您已接受此訂單，正在製作中...");
                     }
                 });
 
@@ -101,7 +101,7 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
                     public void onClick(View view) {
                         dialog.dismiss();
                         holder.status.setImageResource(R.drawable.close);
-                        orderCompleteOrDecline = 1;
+                        client.status = R.drawable.close;
                     }
                 });
 
@@ -110,7 +110,7 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
                     public void onClick(View view) {
                         dialog.dismiss();
                         holder.status.setImageResource(R.drawable.check);
-                        orderCompleteOrDecline = 1;
+                        client.status = R.drawable.check;
                     }
                 });
             }
@@ -132,7 +132,6 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
         private ImageView status;
         private TextView time;
         private CardView cardView;
-        private ImageView imageView;
 
         public ClientViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -141,7 +140,6 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
             status = itemView.findViewById(R.id.status);
             time = itemView.findViewById(R.id.time);
             cardView = itemView.findViewById(R.id.card);
-            imageView = itemView.findViewById(R.id.status);
         }
     }
 }
