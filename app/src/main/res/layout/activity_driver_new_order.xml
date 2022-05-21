@@ -32,112 +32,182 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16"
         app:layout_constraintVertical_bias="0.179">
 
-        <TextView
-            android:id="@+id/textView21"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="$56"
-            android:textAlignment="center"
-            android:textColor="#FF5722"
-            android:textSize="48sp"
-            android:textStyle="bold" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="84dp"
-            android:layout_height="141dp"
-            android:gravity="bottom|center_vertical"
-            android:text="陳*明"
-            android:textAlignment="viewEnd"
-            android:textColor="@color/mainColor"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="$56"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="48sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="326dp"
-            android:layout_height="142dp"
-            android:gravity="bottom"
-            android:text="091234567"
-            android:textAlignment="viewEnd"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="160dp"
+                android:layout_height="72dp"
+                android:layout_below="@+id/textView21"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="187dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="bottom"
+                android:text="091234567"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="135dp"
-            android:layout_height="204dp"
-            android:gravity="bottom|end"
-            android:text="Pizzzzzzza"
-            android:textColor="#65382A"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/textView26"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="bottom|start"
+                android:text="台中市西屯區文華路100號"
+                android:textColor="#9F5743"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="198dp"
-            android:layout_height="240dp"
-            android:gravity="bottom|end"
-            android:text="台中市西屯區文華路100號"
-            android:textColor="#9F5743"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="82dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/textView21"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="234dp"
+                android:gravity="bottom|start"
+                android:text="陳*明"
+                android:textColor="@color/mainColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView28"
-            android:layout_width="68dp"
-            android:layout_height="292dp"
-            android:gravity="bottom|end"
-            android:text="海鮮"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="110dp"
+                android:layout_height="47dp"
+                android:layout_below="@+id/textView27"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="203dp"
+                android:gravity="bottom|start"
+                android:text="海鮮"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/textView39"
-            android:layout_width="68dp"
-            android:layout_height="345dp"
-            android:gravity="bottom|end"
-            android:text="可樂"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:layout_below="@+id/textView39"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="261dp"
+                android:gravity="bottom|start"
+                android:text="總計"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView40"
-            android:layout_width="68dp"
-            android:layout_height="390dp"
-            android:gravity="bottom|end"
-            android:text="總計"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="79dp"
+                android:layout_height="47dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="247dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="bottom|end"
+                android:text="$150"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/textView37"
-            android:layout_width="328dp"
-            android:layout_height="345dp"
-            android:gravity="bottom|end"
-            android:text="$150"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="155dp"
+                android:layout_marginEnd="122dp"
+                android:gravity="bottom|start"
+                android:text="Pizzzzzzza"
+                android:textColor="#65382A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView41"
-            android:layout_width="328dp"
-            android:layout_height="391dp"
-            android:gravity="bottom|end"
-            android:text="$300"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="62dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="266dp"
+                android:layout_marginTop="305dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="bottom|end"
+                android:text="$150"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/textView38"
-            android:layout_width="327dp"
-            android:layout_height="292dp"
-            android:gravity="bottom|end"
-            android:text="$150"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="361dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="bottom|end"
+                android:text="$300"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="108dp"
+                android:layout_height="46dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="296dp"
+                android:layout_marginEnd="205dp"
+                android:gravity="bottom|start"
+                android:text="可樂"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
 
     <Button

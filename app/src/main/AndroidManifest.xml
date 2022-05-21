@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Fooooood">
         <activity
             android:name=".DriverNewOrder"
-            android:exported="false" />
+            android:exported="false"/> >
+
         <activity
             android:name=".DriverHome"
             android:exported="false" />
