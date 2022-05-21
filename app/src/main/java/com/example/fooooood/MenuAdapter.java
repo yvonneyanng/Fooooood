@@ -1,5 +1,6 @@
 package com.example.fooooood;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import java.util.List;
 public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder>{
 
     private List<Menu> myListMenu;
+
     public void setData(List<Menu> list){
         this.myListMenu = list;
         notifyDataSetChanged();
@@ -41,6 +43,11 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
             return myListMenu.size();
         }
         return 0;
+    }
+
+    public void deleteItem(int position) {
+        this.myListMenu.remove(position);
+        notifyItemRemoved(position);
     }
 
     public class MenuViewHolder extends RecyclerView.ViewHolder{

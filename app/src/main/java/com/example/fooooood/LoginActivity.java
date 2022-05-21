@@ -63,6 +63,9 @@ public class LoginActivity extends AppCompatActivity {
         } else if(toggle == R.id.toggleButton3){ // restaurant toggle is checked
             intent.setClass(this, RestaurantMainActivity.class);
             startActivity(intent);
+        } else if(toggle == R.id.toggleButton2){ // delivery man toggle is checked
+            intent.setClass(this, DriverHome.class);
+            startActivity(intent);
         }
     }
 }

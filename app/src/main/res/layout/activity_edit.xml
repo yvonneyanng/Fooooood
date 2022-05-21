@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="75dp"
+            android:layout_marginEnd="90dp"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
@@ -56,7 +56,6 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar_edit"
             app:layout_constraintEnd_toStartOf="@+id/toolbar_title2"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -65,26 +64,26 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="全部餐點"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:text="餐點列表"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_layout2" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_menu"
         android:layout_width="wrap_content"
-        android:layout_height="610dp"
-        android:layout_marginTop="128dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="5dp"
         android:padding="10dp"
+        android:overScrollMode="ifContentScrolls"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add"
