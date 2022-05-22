@@ -51,7 +51,7 @@ public class AnalysisActivity extends AppCompatActivity {
         commentList.add(new Comment("雞肉義大利麵很好吃"));
         commentList.add(new Comment("pizza 好吃"));;
         commentList.add(new Comment("可樂送來的時候灑了"));
-        commentList.add(new Comment("雞腿義大利麵很好吃"));
+        commentList.add(new Comment("牛肉披薩青椒比牛肉多"));
         CommentAdapter commentAdapter = new CommentAdapter(this, R.layout.comment_list, commentList);
         listView.setAdapter(commentAdapter);
 
