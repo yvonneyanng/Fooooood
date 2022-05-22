@@ -13,6 +13,13 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
+            android:name=".DriverNewOrder"
+            android:exported="false"/> >
+
+        <activity
+            android:name=".DriverHome"
+            android:exported="false" />
+        <activity
             android:name=".CustomerComment"
             android:exported="false" />
         <activity
@@ -26,6 +33,9 @@
             android:exported="false" />
         <activity
             android:name=".EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnalysisActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

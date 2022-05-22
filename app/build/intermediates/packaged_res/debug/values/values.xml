@@ -78,6 +78,7 @@
     <style name="Widget.Theme.AppProject.MyView" parent="">
         <item name="android:background">@color/gray_400</item>
         <item name="exampleColor">@color/light_blue_400</item>
+        <item name="android:layout_width">250dp</item>
     </style>
     <declare-styleable name="MyView">
         <attr format="string" name="exampleString"/>

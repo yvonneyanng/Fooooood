@@ -9,18 +9,31 @@ import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RestaurantMainActivity extends AppCompatActivity {
 
-    int changed1 = 0, changed2 = 0, changed3 = 0, changed4 = 0;
+    private RecyclerView rcvClient;
+    private ClientAdapter clientAdapter;
+    List<Client> clientList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant);
-
+        rcvClient = findViewById(R.id.rcv_client);
+        clientAdapter = new ClientAdapter();
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        rcvClient.setLayoutManager(linearLayoutManager);
+        clientAdapter.setData(getListUser());
+        rcvClient.setAdapter(clientAdapter);
 
         // ============================================================================
         Switch st = (Switch) findViewById(R.id.status_switch);
@@ -35,109 +48,33 @@ public class RestaurantMainActivity extends AppCompatActivity {
             }
         });
 
-
-        // ============================================================================
-        CardView card1 = findViewById(R.id.order_1);
-        CardView card2 = findViewById(R.id.order_2);
-        CardView card3 = findViewById(R.id.order_3);
-        CardView card4 = findViewById(R.id.incoming);
-
-
-        card1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (changed1 == 0){
-                    findViewById(R.id.order1).setVisibility(View.VISIBLE);
-                    changed1 = 1;
-                }else{
-                    findViewById(R.id.order1).setVisibility(View.GONE);
-                    changed1 = 0;
-                }
-            }
-        });
-        card2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (changed2 == 0){
-                    findViewById(R.id.order2).setVisibility(View.VISIBLE);
-                    changed2 = 1;
-                }else{
-                    findViewById(R.id.order2).setVisibility(View.GONE);
-                    changed2 = 0;
-                }
-            }
-        });
-        card3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (changed3 == 0){
-                    findViewById(R.id.order3).setVisibility(View.VISIBLE);
-                    changed3 = 1;
-                }else{
-                    findViewById(R.id.order3).setVisibility(View.GONE);
-                    changed3 = 0;
-                }
-            }
-        });
-        card4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (changed4 == 0){
-                    findViewById(R.id.order_info).setVisibility(View.VISIBLE);
-                    changed4 = 1;
-                }else{
-                    findViewById(R.id.order_info).setVisibility(View.GONE);
-                    changed4 = 0;
-                }
-            }
-        });
-
-
-        // ============================================================================
-        Button buttonAccept = (Button) findViewById(R.id.accept);
-        Button buttonDecline = (Button) findViewById(R.id.decline);
-        Button buttonComplete = (Button) findViewById(R.id.complete);
         TextView textEdit = (TextView) findViewById(R.id.edit);
         TextView textAnalysis = (TextView) findViewById(R.id.analysis);
-        ImageView img = (ImageView) findViewById(R.id.stat_img);
 
-        // accept button clicked
-        buttonAccept.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                findViewById(R.id.button).setVisibility(View.GONE);
-                findViewById(R.id.complete).setVisibility(View.VISIBLE);
-            }
-        });
-        // complete button clicked
-        buttonComplete.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                findViewById(R.id.stat_img).setVisibility(View.VISIBLE);
-                findViewById(R.id.complete).setVisibility(View.GONE);
-                findViewById(R.id.order_info).setVisibility(View.GONE);
-            }
-        });
-        // decline button clicked
-        buttonDecline.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                findViewById(R.id.button).setVisibility(View.GONE);
-                img.setImageResource(R.drawable.close);
-                findViewById(R.id.stat_img).setVisibility(View.VISIBLE);
-                findViewById(R.id.order_info).setVisibility(View.GONE);
-            }
-        });
-        // edit menu
+        // edit page
         textEdit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent_edit = new Intent(RestaurantMainActivity.this, EditActivity.class);
                 startActivity(intent_edit);
             }
         });
-//        // analysis page
-//        textAnalysis.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                Intent intent_analysis = new Intent(RestaurantMainActivity.this, AnalysisActivity.class);
-//                startActivity(intent_analysis);
-//            }
-//        });
+        // analysis page
+        textAnalysis.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent_analysis = new Intent(RestaurantMainActivity.this, AnalysisActivity.class);
+                startActivity(intent_analysis);
+            }
+        });
+    }
+
+    private List<Client> getListUser() {
+        clientList.add(new Client(R.drawable.incoming, "陳小姐", "0911111111", "1:00 PM", "是否接受此訂單？"));
+        clientList.add(new Client(R.drawable.close, "何先生", "0922222222", "1:30 PM", "您已拒絕此訂單！"));
+        clientList.add(new Client(R.drawable.check, "林小姐", "0933333333", "2:00 PM", "您已完成此訂單！"));
+        clientList.add(new Client(R.drawable.check, "王先生", "0944444444", "2:30 PM", "您已完成此訂單！"));
+        clientList.add(new Client(R.drawable.close, "陳小姐", "0955555555", "3:00 PM", "您已拒絕訂單！"));
+        clientList.add(new Client(R.drawable.check, "何先生", "0966666666", "3:30 PM", "您已完成此訂單！"));
+        clientList.add(new Client(R.drawable.close, "林先生", "0977777777", "4:00 PM", "您已拒絕訂單！"));
+        return clientList;
     }
 }
