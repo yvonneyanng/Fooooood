@@ -33,10 +33,10 @@
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="35dp"
             android:layout_toEndOf="@+id/foodImg"
             android:text="TextView"
-            android:textColor="@color/black"
+            android:textColor="@color/mainColor"
             android:textStyle="bold" />
 
         <TextView
@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
             android:layout_toEndOf="@+id/foodName"
             android:layout_weight="1"
             android:text="TextView"
