@@ -8,21 +8,12 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/toolbar_layout3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/mainColor"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar_analysis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/toolbar_title"
@@ -35,27 +26,27 @@
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar_analysis"
-            app:layout_constraintEnd_toEndOf="@+id/toolbar_analysis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/back_analysis"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="75dp"
+            android:layout_marginEnd="90dp"
+            android:gravity="center"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
             android:text="返回"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar_analysis"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/toolbar_title"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/toolbar_analysis" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -63,7 +54,7 @@
         android:id="@+id/analysis"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="68dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:text="評分"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -133,7 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:text="評論"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -143,13 +134,16 @@
 
     <ListView
         android:id="@+id/comment"
-        android:layout_width="wrap_content"
-        android:layout_height="230dp"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:background="@drawable/edit_background"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,6 +18,7 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Fooooood/app/src/main/res/layout/restaurant_row.xml" value="0.35128205128205126" />
         <entry key="app/src/main/res/drawable/button_circle_shape.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/button_selector.xml" value="0.241" />
+        <entry key="app/src/main/res/drawable/edit_background.xml" value="0.1555" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/login_buttom_text.xml" value="0.115" />
         <entry key="app/src/main/res/drawable/order_dialog.xml" value="0.108" />
@@ -37,6 +38,7 @@
         <entry key="app/src/main/res/layout/activity_store.xml" value="0.24322916666666666" />
         <entry key="app/src/main/res/layout/analysis_blocks.xml" value="0.4042577107747396" />
         <entry key="app/src/main/res/layout/client_list.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/comment_list.xml" value="0.12782897949218752" />
         <entry key="app/src/main/res/layout/edit_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/edit_row.xml" value="0.2604232788085938" />
         <entry key="app/src/main/res/layout/order_item.xml" value="0.31083413583261" />

@@ -9,21 +9,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/toolbar_layout2"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="60dp"
+        android:background="@color/mainColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar_edit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/toolbar_title2"
@@ -36,17 +26,18 @@
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/toolbar_edit"
-            app:layout_constraintTop_toTopOf="@+id/toolbar_edit" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/back_edit"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="90dp"
+            android:gravity="center"
             android:shadowColor="#545454"
             android:shadowDy="5"
             android:shadowRadius="10"
@@ -54,7 +45,7 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar_edit"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/toolbar_title2"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,10 +67,10 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_menu"
         android:layout_width="wrap_content"
-        android:layout_height="630dp"
+        android:layout_height="650dp"
         android:layout_marginTop="5dp"
-        android:padding="10dp"
         android:overScrollMode="ifContentScrolls"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"

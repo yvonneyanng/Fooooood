@@ -119,6 +119,8 @@ public class EditActivity extends AppCompatActivity {
         list.add(new Menu(R.drawable.coke, "可樂", "$ 20"));
         list.add(new Menu(R.drawable.pizza_mashroon2, "蘑菇", "$ 130"));
         list.add(new Menu(R.drawable.pizzafst, "總匯", "$ 150"));
+        list.add(new Menu(R.drawable.beef, "牛肉", "$ 200"));
+        list.add(new Menu(R.drawable.calpis, "可爾必思", "$ 30"));
         return list;
     }
 }

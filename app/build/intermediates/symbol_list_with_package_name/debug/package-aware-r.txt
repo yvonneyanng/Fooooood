@@ -2495,6 +2495,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable beef
 drawable bg_dot_line
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2507,6 +2508,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button_circle_shape
 drawable button_selector
 drawable button_shape
+drawable calpis
 drawable check
 drawable close
 drawable coke
@@ -2522,6 +2524,7 @@ drawable edit_background
 drawable errorimage
 drawable fast_delivery__1_
 drawable flag
+drawable halfstar
 drawable hamburger
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2759,6 +2762,7 @@ id choice
 id chronometer
 id circle_center
 id clear_text
+id clientComment
 id clip_horizontal
 id clip_vertical
 id clockwise
@@ -3199,8 +3203,6 @@ id toggleButton3
 id toggleButton4
 id toolbar
 id toolbar2
-id toolbar_analysis
-id toolbar_edit
 id toolbar_layout2
 id toolbar_layout3
 id toolbar_title
@@ -3345,6 +3347,7 @@ layout activity_main
 layout activity_restaurant
 layout analysis_blocks
 layout client_list
+layout comment_list
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
