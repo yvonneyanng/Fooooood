@@ -1911,6 +1911,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -2667,6 +2669,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id account
 id actionDown
 id actionDownUp
 id actionUp
@@ -2736,6 +2739,7 @@ id button6
 id button7
 id button8
 id buttonPanel
+id button_register
 id cache_measures
 id callMeasure
 id cancel
@@ -2913,6 +2917,7 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout_gridtableLayout
 id list
 id listMode
 id list_item
@@ -3010,11 +3015,13 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
+id phone
 id pin
 id please_add
 id position
@@ -3028,12 +3035,14 @@ id ratingBar2
 id ratio
 id rcv_client
 id rectangles
-id recyclerColView
-id recyclerView
 id relativeLayout
+id relativeStoreName
+id relativeStorePhone
 id restaurant
+id restaurantCol
 id restaurantMain_img
 id restaurantName
+id restaurantRow
 id restaurantTitle_txt
 id reverseSawtooth
 id right
@@ -3066,6 +3075,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seatLegendLayout
 id select_dialog_listview
 id selected
 id selection_type
@@ -3117,6 +3127,8 @@ id status_switch
 id status_text
 id stop
 id store
+id storeName
+id storePhone
 id stretch
 id submenuarrow
 id submit_area
@@ -3143,7 +3155,11 @@ id text
 id text2
 id textEnd
 id textInputAccount
+id textInputName
 id textInputPassword
+id textInputPhone
+id textInputStoreName
+id textInputStorePhone
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3195,6 +3211,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_register
 id title_template
 id toggle
 id toggleButton
@@ -3344,6 +3361,7 @@ layout activity_edit
 layout activity_home
 layout activity_login
 layout activity_main
+layout activity_register
 layout activity_restaurant
 layout analysis_blocks
 layout client_list
@@ -3474,6 +3492,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string accept
+string action_sign_in
+string action_sign_in_short
 string all
 string androidx_startup
 string app_name
@@ -3486,7 +3506,9 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string close
+string customer
 string decline
+string delivery
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3495,7 +3517,10 @@ string first_fragment_label
 string hello_first_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string invalid_password
+string invalid_username
 string item_view_role_description
+string login_failed
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3588,11 +3613,17 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string previous
+string prompt_email
+string prompt_password
+string register
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string store
 string store_name
 string title
+string title_activity_register
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

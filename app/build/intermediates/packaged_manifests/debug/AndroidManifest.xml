@@ -29,6 +29,13 @@
             android:name="com.example.fooooood.DriverHome"
             android:exported="false" />
         <activity
+            android:name="com.example.fooooood.DriverNewOrder"
+            android:exported="false" />
+ >
+        <activity
+            android:name="com.example.fooooood.DriverHome"
+            android:exported="false" />
+        <activity
             android:name="com.example.fooooood.CustomerComment"
             android:exported="false" />
         <activity
