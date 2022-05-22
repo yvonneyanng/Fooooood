@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Fooooood" >
         <activity
+            android:name="com.example.fooooood.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.fooooood.DriverNewOrder"
             android:exported="false" />
  >
@@ -27,6 +30,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.fooooood.CustomerComment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fooooood.Customer_purchase_pageActivity"
             android:exported="false" />
         <activity
             android:name="com.example.fooooood.HomeActivity"

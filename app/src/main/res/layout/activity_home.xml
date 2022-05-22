@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -43,12 +42,12 @@
     </RelativeLayout>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <SearchView
@@ -70,10 +69,39 @@
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerColView"
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/seatLegendLayout">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_gridtableLayout"
+                        android:layout_width="540dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <GridView
+                            android:id="@+id/restaurantCol"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="4dp"
+                            android:columnWidth="180dp"
+                            android:gravity="center"
+                            android:horizontalSpacing="1dp"
+                            android:numColumns="3"
+                            android:scrollbarAlwaysDrawHorizontalTrack="true"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:scrollbars="horizontal"
+                            android:stretchMode="none"
+                            android:verticalSpacing="1dp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+            </HorizontalScrollView>
 
             <TextView
                 android:id="@+id/textView2"
@@ -85,13 +113,12 @@
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerView"
+            <GridView
+                android:id="@+id/restaurantRow"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="5dp">
+                android:layout_height="413dp" />
 
-            </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>
