@@ -2497,6 +2497,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable beef
 drawable bg_dot_line
 drawable btn_checkbox_checked_mtrl
@@ -2716,8 +2717,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id back_analysis
-id back_edit
+id back
+id back2
 id barTitle
 id barrier
 id baseline
@@ -4648,6 +4649,7 @@ style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
 style Widget_Theme_AppProject_MyView
+style rounded
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

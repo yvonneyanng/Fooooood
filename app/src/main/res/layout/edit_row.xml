@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/foodImg"
             android:layout_width="90dp"
             android:layout_height="70dp"
@@ -26,6 +26,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/rounded"
             app:srcCompat="@drawable/meat" />
 
         <TextView

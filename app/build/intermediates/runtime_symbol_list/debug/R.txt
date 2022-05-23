@@ -2496,6 +2496,7 @@ int drawable abc_textfield_search_material 0x7f080054
 int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
+int drawable back 0x7f0800cb
 int drawable beef 0x7f0800c9
 int drawable bg_dot_line 0x7f080058
 int drawable btn_checkbox_checked_mtrl 0x7f080059
@@ -2715,8 +2716,8 @@ int id auto 0x7f090063
 int id autoComplete 0x7f090064
 int id autoCompleteToEnd 0x7f090065
 int id autoCompleteToStart 0x7f090066
-int id back_analysis 0x7f090067
-int id back_edit 0x7f090068
+int id back 0x7f090292
+int id back2 0x7f090293
 int id barTitle 0x7f090069
 int id barrier 0x7f09006a
 int id baseline 0x7f09006b
@@ -4647,6 +4648,7 @@ int style Widget_MaterialComponents_Toolbar_Surface 0x7f1103fc
 int style Widget_MaterialComponents_Tooltip 0x7f1103fd
 int style Widget_Support_CoordinatorLayout 0x7f1103fe
 int style Widget_Theme_AppProject_MyView 0x7f1103ff
+int style rounded 0x7f110400
 int[] styleable ActionBar { 0x7f040045, 0x7f04004c, 0x7f04004d, 0x7f04010f, 0x7f040110, 0x7f040111, 0x7f040112, 0x7f040113, 0x7f040114, 0x7f04013a, 0x7f04014f, 0x7f040150, 0x7f04016f, 0x7f0401e0, 0x7f0401e7, 0x7f0401ed, 0x7f0401ee, 0x7f0401f2, 0x7f040203, 0x7f040218, 0x7f040292, 0x7f0402f5, 0x7f04032c, 0x7f040334, 0x7f040335, 0x7f0403a0, 0x7f0403a4, 0x7f040423, 0x7f040430 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1

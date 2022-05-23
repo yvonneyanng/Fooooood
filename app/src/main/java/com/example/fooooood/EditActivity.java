@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -61,8 +62,8 @@ public class EditActivity extends AppCompatActivity {
         });
 
         // back to main page
-        TextView textBack = (TextView) findViewById(R.id.back_edit);
-        textBack.setOnClickListener(new View.OnClickListener() {
+        ImageView backToMain = findViewById(R.id.back2);
+        backToMain.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(EditActivity.this, RestaurantMainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

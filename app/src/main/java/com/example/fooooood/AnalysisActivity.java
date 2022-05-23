@@ -3,6 +3,7 @@ package com.example.fooooood;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -57,8 +58,8 @@ public class AnalysisActivity extends AppCompatActivity {
 
 
         // back to main page
-        TextView textAnalysis = (TextView) findViewById(R.id.back_analysis);
-        textAnalysis.setOnClickListener(new View.OnClickListener() {
+        ImageView backToMain = findViewById(R.id.back);
+        backToMain.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(AnalysisActivity.this, RestaurantMainActivity.class);
                 startActivity(intent);

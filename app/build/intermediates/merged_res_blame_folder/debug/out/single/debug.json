@@ -296,6 +296,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/pasta.png"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_back.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/back.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
