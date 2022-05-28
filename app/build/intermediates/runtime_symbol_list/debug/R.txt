@@ -2612,6 +2612,7 @@ int drawable two 0x7f0800c5
 int drawable unknown 0x7f0800c6
 int drawable user 0x7f0800c7
 int drawable user__2_ 0x7f0800c8
+int drawable wtf 0x7f0800cc
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002

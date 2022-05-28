@@ -318,5 +318,9 @@
     {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_client_list.xml.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/client_list.xml"
+    },
+    {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_wtf.jpeg.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/wtf.jpeg"
     }
 ]

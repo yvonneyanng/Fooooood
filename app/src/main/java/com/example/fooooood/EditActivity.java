@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -99,11 +101,12 @@ public class EditActivity extends AppCompatActivity {
                         } else if (TextUtils.isEmpty(etPrice.getText().toString())){
                             Toast.makeText(EditActivity.this, "請輸入價格", Toast.LENGTH_LONG).show();
                         } else {
-                            list.add(new Menu(R.drawable.unknown, etName.getText().toString(), "$ " + etPrice.getText().toString()));
+                            list.add(new Menu(R.drawable.wtf, etName.getText().toString(), "$ " + etPrice.getText().toString()));
                             dialog.dismiss();
                         }
                     }
                 });
+
                 btCancel.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

@@ -2613,6 +2613,7 @@ drawable two
 drawable unknown
 drawable user
 drawable user__2_
+drawable wtf
 id ALT
 id BOTTOM_END
 id BOTTOM_START
