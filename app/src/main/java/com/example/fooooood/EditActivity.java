@@ -2,25 +2,27 @@ package com.example.fooooood;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
-import android.content.Context;
+import android.content.ContentValues;
 import android.content.Intent;
-import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.text.Editable;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -29,26 +31,31 @@ import java.util.List;
 
 public class EditActivity extends AppCompatActivity {
 
-    private RecyclerView rcvMenu;
-    private FloatingActionButton btnFloating;
-    private MenuAdapter menuAdapter;
-    List<Menu> list = new ArrayList<>();
+    RecyclerView rcvMenu;
+    FloatingActionButton btnFloating;
+    MenuAdapter menuAdapter;
+    EditText etName;
+    EditText etPrice;
+    MenuDatabaseHelper myDB;
+    ArrayList<String> mealName, mealPrice;
+    ArrayList<Integer> mealImg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
 
-        rcvMenu = findViewById(R.id.rv_menu);
         btnFloating = findViewById(R.id.add);
-        menuAdapter = new MenuAdapter();
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-        rcvMenu.setLayoutManager(linearLayoutManager);
-        menuAdapter.setData(getListUser());
-        rcvMenu.setAdapter(menuAdapter);
+        rcvMenu = findViewById(R.id.rv_menu);
 
-        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeItem(menuAdapter));
-        itemTouchHelper.attachToRecyclerView(rcvMenu);
+        myDB = new MenuDatabaseHelper(EditActivity.this);
+        mealImg = new ArrayList<>();
+        mealName = new ArrayList<>();
+        mealPrice = new ArrayList<>();
+        storeDataInArrays();
+        menuAdapter = new MenuAdapter(EditActivity.this, mealImg, mealName, mealPrice);
+        rcvMenu.setLayoutManager(new LinearLayoutManager(EditActivity.this));
+        rcvMenu.setAdapter(menuAdapter);
 
         // hide and show the floating action button while scrolling
         rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -63,7 +70,7 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
-        // back to main page
+        // 回到主頁
         ImageView backToMain = findViewById(R.id.back2);
         backToMain.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -73,16 +80,17 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
+        // 新增餐點
         btnFloating.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Dialog dialog = new Dialog(EditActivity.this);
                 dialog.setContentView(R.layout.edit_menu);
 
-                EditText etName = dialog.findViewById(R.id.addName);
-                EditText etPrice = dialog.findViewById(R.id.addPrice);
+                etName = dialog.findViewById(R.id.addName);
+                etPrice = dialog.findViewById(R.id.addPrice);
                 Button btConfirm = dialog.findViewById(R.id.confirm);
-                Button btCancel = dialog.findViewById(R.id.cancel);
 
                 dialog.show();
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -101,30 +109,28 @@ public class EditActivity extends AppCompatActivity {
                         } else if (TextUtils.isEmpty(etPrice.getText().toString())){
                             Toast.makeText(EditActivity.this, "請輸入價格", Toast.LENGTH_LONG).show();
                         } else {
-                            list.add(new Menu(R.drawable.wtf, etName.getText().toString(), "$ " + etPrice.getText().toString()));
+                            MenuDatabaseHelper menuDatabase = new MenuDatabaseHelper(EditActivity.this);
+                            menuDatabase.addItem(R.drawable.wtf, etName.getText().toString(), etPrice.getText().toString());
+                            finish();
+                            startActivity(getIntent());
                             dialog.dismiss();
                         }
-                    }
-                });
-
-                btCancel.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        dialog.dismiss();
                     }
                 });
             }
         });
     }
-    private List<Menu> getListUser() {
-        list.add(new Menu(R.drawable.meat, "肉醬", "$ 150"));
-        list.add(new Menu(R.drawable.seafood, "海鮮", "$ 180"));
-        list.add(new Menu(R.drawable.pizza_hawaiian, "夏威夷", "$ 170"));
-        list.add(new Menu(R.drawable.coke, "可樂", "$ 20"));
-        list.add(new Menu(R.drawable.pizza_mashroon2, "蘑菇", "$ 130"));
-        list.add(new Menu(R.drawable.pizzafst, "總匯", "$ 150"));
-        list.add(new Menu(R.drawable.beef, "牛肉", "$ 200"));
-        list.add(new Menu(R.drawable.calpis, "可爾必思", "$ 30"));
-        return list;
+
+    void storeDataInArrays() {
+        Cursor cursor = myDB.readAllData();
+        if(cursor.getCount() == 0){
+            Toast.makeText(this, "您的菜單是空的！", Toast.LENGTH_LONG).show();
+        } else {
+            while(cursor.moveToNext()){
+                mealName.add(cursor.getString(0));
+                mealPrice.add(cursor.getString(1));
+                mealImg.add(cursor.getInt(2));
+            }
+        }
     }
 }

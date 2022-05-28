@@ -2744,7 +2744,6 @@ id buttonPanel
 id button_register
 id cache_measures
 id callMeasure
-id cancel
 id cancel_button
 id card
 id cardView
@@ -2848,6 +2847,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id floatingActionButton
 id food1
 id food2
 id food3

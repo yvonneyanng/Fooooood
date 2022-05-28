@@ -2743,7 +2743,6 @@ int id buttonPanel 0x7f09007d
 int id button_register 0x7f090282
 int id cache_measures 0x7f09007e
 int id callMeasure 0x7f09007f
-int id cancel 0x7f090080
 int id cancel_button 0x7f090081
 int id card 0x7f090082
 int id cardView 0x7f090083
@@ -2847,6 +2846,7 @@ int id fitToContents 0x7f0900e3
 int id fixed 0x7f0900e4
 int id flip 0x7f0900e5
 int id floating 0x7f0900e6
+int id floatingActionButton 0x7f09029d
 int id food1 0x7f0900e7
 int id food2 0x7f0900e8
 int id food3 0x7f0900e9
