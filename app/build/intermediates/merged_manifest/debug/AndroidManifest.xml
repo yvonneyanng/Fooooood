@@ -8,6 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="31" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -19,16 +23,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Fooooood" >
         <activity
-            android:name="com.example.fooooood.AddActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.fooooood.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.fooooood.DriverNewOrder"
-            android:exported="false" />
-        <activity
-            android:name="com.example.fooooood.DriverHome"
             android:exported="false" />
         <activity
             android:name="com.example.fooooood.DriverNewOrder"

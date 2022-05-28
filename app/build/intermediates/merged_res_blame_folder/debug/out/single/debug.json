@@ -8,6 +8,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_driver_new_order.xml"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_camera.png.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/camera.png"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_meat.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/meat.png"
     },

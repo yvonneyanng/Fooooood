@@ -2512,6 +2512,7 @@ drawable button_circle_shape
 drawable button_selector
 drawable button_shape
 drawable calpis
+drawable camera
 drawable check
 drawable close
 drawable coke
@@ -2847,7 +2848,6 @@ id fitToContents
 id fixed
 id flip
 id floating
-id floatingActionButton
 id food1
 id food2
 id food3
@@ -2907,6 +2907,7 @@ id item1
 id item2
 id item3
 id item4
+id itemCard
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3149,6 +3150,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id takePhoto
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint

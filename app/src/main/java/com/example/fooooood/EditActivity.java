@@ -1,26 +1,34 @@
 package com.example.fooooood;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.Manifest;
 import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -39,6 +47,8 @@ public class EditActivity extends AppCompatActivity {
     MenuDatabaseHelper myDB;
     ArrayList<String> mealName, mealPrice;
     ArrayList<Integer> mealImg;
+    final int REQUEST_IMAGE_CAPTURE = 100;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,7 +100,9 @@ public class EditActivity extends AppCompatActivity {
 
                 etName = dialog.findViewById(R.id.addName);
                 etPrice = dialog.findViewById(R.id.addPrice);
+                CardView cardView = findViewById(R.id.itemCard);
                 Button btConfirm = dialog.findViewById(R.id.confirm);
+                ImageView ibtAdd = dialog.findViewById(R.id.takePhoto);
 
                 dialog.show();
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -103,7 +115,7 @@ public class EditActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         if (TextUtils.isEmpty(etName.getText().toString()) && TextUtils.isEmpty(etPrice.getText().toString())){
-                            Toast.makeText(EditActivity.this, "欄位不可為空白", Toast.LENGTH_LONG).show();
+                            Toast.makeText(EditActivity.this, "欄位不可空白", Toast.LENGTH_LONG).show();
                         } else if (TextUtils.isEmpty(etName.getText().toString())){
                             Toast.makeText(EditActivity.this, "請輸入餐點名稱", Toast.LENGTH_LONG).show();
                         } else if (TextUtils.isEmpty(etPrice.getText().toString())){
@@ -115,6 +127,23 @@ public class EditActivity extends AppCompatActivity {
                             startActivity(getIntent());
                             dialog.dismiss();
                         }
+                    }
+                });
+
+//                // no response
+//                cardView.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        Toast.makeText(EditActivity.this, "delete", Toast.LENGTH_LONG).show();
+//                    }
+//                });
+
+
+                // camera
+                ibtAdd.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        askCameraPermission();
                     }
                 });
             }
@@ -132,5 +161,40 @@ public class EditActivity extends AppCompatActivity {
                 mealImg.add(cursor.getInt(2));
             }
         }
+    }
+
+    private void askCameraPermission() {
+        if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, REQUEST_IMAGE_CAPTURE);
+        } else {
+            openCamera();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == REQUEST_IMAGE_CAPTURE){
+            Bitmap imgBitmap = (Bitmap) data.getExtras().get("data");
+            imageView.setImageBitmap(imgBitmap);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if(requestCode == REQUEST_IMAGE_CAPTURE){
+//            if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+//                openCamera();
+//            } else{
+//                Toast.makeText(this, "請打開相機", Toast.LENGTH_LONG).show();
+//            }
+            openCamera();
+        }
+    }
+
+    private void openCamera() {
+        Intent camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(camera, REQUEST_IMAGE_CAPTURE);
     }
 }

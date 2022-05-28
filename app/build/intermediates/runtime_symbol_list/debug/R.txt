@@ -2511,6 +2511,7 @@ int drawable button_circle_shape 0x7f080061
 int drawable button_selector 0x7f080062
 int drawable button_shape 0x7f080063
 int drawable calpis 0x7f0800ca
+int drawable camera 0x7f0800cd
 int drawable check 0x7f080064
 int drawable close 0x7f080065
 int drawable coke 0x7f080066
@@ -2846,7 +2847,6 @@ int id fitToContents 0x7f0900e3
 int id fixed 0x7f0900e4
 int id flip 0x7f0900e5
 int id floating 0x7f0900e6
-int id floatingActionButton 0x7f09029d
 int id food1 0x7f0900e7
 int id food2 0x7f0900e8
 int id food3 0x7f0900e9
@@ -2906,6 +2906,7 @@ int id item1 0x7f09011e
 int id item2 0x7f09011f
 int id item3 0x7f090120
 int id item4 0x7f090121
+int id itemCard 0x7f0902a0
 int id item_touch_helper_previous_elevation 0x7f090122
 int id jumpToEnd 0x7f090123
 int id jumpToStart 0x7f090124
@@ -3148,6 +3149,7 @@ int id tag_transition_group 0x7f090208
 int id tag_unhandled_key_event_manager 0x7f090209
 int id tag_unhandled_key_listeners 0x7f09020a
 int id tag_window_insets_animation_callback 0x7f09020b
+int id takePhoto 0x7f09029f
 int id test_checkbox_android_button_tint 0x7f09020c
 int id test_checkbox_app_button_tint 0x7f09020d
 int id test_radiobutton_android_button_tint 0x7f09020e
