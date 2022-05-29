@@ -138,7 +138,6 @@ public class EditActivity extends AppCompatActivity {
 //                    }
 //                });
 
-
                 // camera
                 ibtAdd.setOnClickListener(new View.OnClickListener() {
                     @Override
