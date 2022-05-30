@@ -42,13 +42,10 @@ public class EditActivity extends AppCompatActivity {
     RecyclerView rcvMenu;
     FloatingActionButton btnFloating;
     MenuAdapter menuAdapter;
-    EditText etName;
-    EditText etPrice;
+    EditText etName, etPrice;
     MenuDatabaseHelper myDB;
-    ArrayList<String> mealName, mealPrice;
+    ArrayList<String> mealName, mealPrice, mealId;
     ArrayList<Integer> mealImg;
-    final int REQUEST_IMAGE_CAPTURE = 100;
-    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,11 +56,12 @@ public class EditActivity extends AppCompatActivity {
         rcvMenu = findViewById(R.id.rv_menu);
 
         myDB = new MenuDatabaseHelper(EditActivity.this);
+        mealId = new ArrayList<>();
         mealImg = new ArrayList<>();
         mealName = new ArrayList<>();
         mealPrice = new ArrayList<>();
         storeDataInArrays();
-        menuAdapter = new MenuAdapter(EditActivity.this, mealImg, mealName, mealPrice);
+        menuAdapter = new MenuAdapter(EditActivity.this, this,  mealId, mealImg, mealName, mealPrice);
         rcvMenu.setLayoutManager(new LinearLayoutManager(EditActivity.this));
         rcvMenu.setAdapter(menuAdapter);
 
@@ -100,7 +98,6 @@ public class EditActivity extends AppCompatActivity {
 
                 etName = dialog.findViewById(R.id.addName);
                 etPrice = dialog.findViewById(R.id.addPrice);
-                CardView cardView = findViewById(R.id.itemCard);
                 Button btConfirm = dialog.findViewById(R.id.confirm);
                 ImageView ibtAdd = dialog.findViewById(R.id.takePhoto);
 
@@ -122,7 +119,7 @@ public class EditActivity extends AppCompatActivity {
                             Toast.makeText(EditActivity.this, "請輸入價格", Toast.LENGTH_LONG).show();
                         } else {
                             MenuDatabaseHelper menuDatabase = new MenuDatabaseHelper(EditActivity.this);
-                            menuDatabase.addItem(R.drawable.wtf, etName.getText().toString(), etPrice.getText().toString());
+                            menuDatabase.addItem(etName.getText().toString(), etPrice.getText().toString(), R.drawable.wtf);
                             finish();
                             startActivity(getIntent());
                             dialog.dismiss();
@@ -130,19 +127,11 @@ public class EditActivity extends AppCompatActivity {
                     }
                 });
 
-//                // no response
-//                cardView.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        Toast.makeText(EditActivity.this, "delete", Toast.LENGTH_LONG).show();
-//                    }
-//                });
-
                 // camera
                 ibtAdd.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        askCameraPermission();
+
                     }
                 });
             }
@@ -155,45 +144,19 @@ public class EditActivity extends AppCompatActivity {
             Toast.makeText(this, "您的菜單是空的！", Toast.LENGTH_LONG).show();
         } else {
             while(cursor.moveToNext()){
-                mealName.add(cursor.getString(0));
-                mealPrice.add(cursor.getString(1));
-                mealImg.add(cursor.getInt(2));
+                mealId.add(cursor.getString(0));
+                mealName.add(cursor.getString(1));
+                mealPrice.add(cursor.getString(2));
+                mealImg.add(cursor.getInt(3));
             }
-        }
-    }
-
-    private void askCameraPermission() {
-        if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, REQUEST_IMAGE_CAPTURE);
-        } else {
-            openCamera();
         }
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == REQUEST_IMAGE_CAPTURE){
-            Bitmap imgBitmap = (Bitmap) data.getExtras().get("data");
-            imageView.setImageBitmap(imgBitmap);
+        if(requestCode == 1){ // code for displaying new data after update
+            recreate();
         }
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(requestCode == REQUEST_IMAGE_CAPTURE){
-//            if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-//                openCamera();
-//            } else{
-//                Toast.makeText(this, "請打開相機", Toast.LENGTH_LONG).show();
-//            }
-            openCamera();
-        }
-    }
-
-    private void openCamera() {
-        Intent camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        startActivityForResult(camera, REQUEST_IMAGE_CAPTURE);
     }
 }

@@ -2800,6 +2800,7 @@ id decelerateAndComplete
 id decline
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3009,6 +3010,7 @@ id on
 id onInterceptTouchReturnSwipe
 id orders
 id ordersByDate
+id originalPhoto
 id outline
 id outward
 id overshoot
@@ -3027,6 +3029,7 @@ id percent
 id phone
 id pin
 id please_add
+id please_update
 id position
 id postLayout
 id progress
@@ -3176,6 +3179,7 @@ id textView13
 id textView14
 id textView15
 id textView16
+id textView17
 id textView18
 id textView19
 id textView2
@@ -3184,6 +3188,7 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
 id textView26
 id textView27
 id textView28
@@ -3249,6 +3254,9 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id update
+id updateName
+id updatePrice
 id useLogo
 id user1_img
 id vertical_only
@@ -3367,6 +3375,7 @@ layout activity_login
 layout activity_main
 layout activity_register
 layout activity_restaurant
+layout activity_update
 layout analysis_blocks
 layout client_list
 layout comment_list

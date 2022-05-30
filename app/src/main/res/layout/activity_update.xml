@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#545454"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="餐點名稱"
+        android:textColor="@color/mainColor"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/updateName"
+        app:layout_constraintTop_toBottomOf="@+id/originalPhoto" />
+
+    <TextView
+        android:id="@+id/please_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="餐點變更"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_layout2" />
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="(必填)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#a3a3a3"
+        app:layout_constraintEnd_toEndOf="@+id/originalPhoto"
+        app:layout_constraintStart_toStartOf="@+id/originalPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="價格"
+        android:textColor="@color/mainColor"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/updatePrice"
+        app:layout_constraintTop_toBottomOf="@+id/updateName" />
+
+    <EditText
+        android:id="@+id/updatePrice"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="(必填)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#a3a3a3"
+        app:layout_constraintEnd_toEndOf="@+id/updateName"
+        app:layout_constraintStart_toStartOf="@+id/updateName"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/originalPhoto"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:background="#E3E3E3"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/please_update"
+        app:shapeAppearance="@style/rounded" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/mainColor"
+        android:text="刪除"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/updatePrice"
+        app:layout_constraintTop_toBottomOf="@+id/updatePrice" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/mainColor"
+        android:text="更新"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="@+id/updatePrice"
+        app:layout_constraintTop_toBottomOf="@+id/updatePrice" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

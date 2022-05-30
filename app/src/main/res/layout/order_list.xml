@@ -48,7 +48,8 @@
             android:backgroundTint="@color/orange"
             android:text="接單"
             android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
 
         <Button
             android:id="@+id/decline"
@@ -58,7 +59,8 @@
             android:backgroundTint="@color/orange"
             android:text="拒單"
             android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
     </LinearLayout>
 
     <Button

@@ -132,6 +132,10 @@
         "source": "/Users/yvonne/Fooooood/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/layout_activity_update.xml.flat",
+        "source": "/Users/yvonne/Fooooood/app/src/main/res/layout/activity_update.xml"
+    },
+    {
         "merged": "/Users/yvonne/Fooooood/app/build/intermediates/merged_res/debug/drawable_user.png.flat",
         "source": "/Users/yvonne/Fooooood/app/src/main/res/drawable/user.png"
     },

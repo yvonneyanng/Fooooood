@@ -2799,6 +2799,7 @@ int id decelerateAndComplete 0x7f0900b3
 int id decline 0x7f0900b4
 int id decor_content_parent 0x7f0900b5
 int id default_activity_button 0x7f0900b6
+int id delete 0x7f0902a1
 int id deltaRelative 0x7f0900b7
 int id dependency_ordering 0x7f0900b8
 int id design_bottom_sheet 0x7f0900b9
@@ -3008,6 +3009,7 @@ int id on 0x7f090182
 int id onInterceptTouchReturnSwipe 0x7f090183
 int id orders 0x7f090184
 int id ordersByDate 0x7f090185
+int id originalPhoto 0x7f0902a2
 int id outline 0x7f090186
 int id outward 0x7f090187
 int id overshoot 0x7f090188
@@ -3026,6 +3028,7 @@ int id percent 0x7f090193
 int id phone 0x7f090285
 int id pin 0x7f090194
 int id please_add 0x7f090195
+int id please_update 0x7f0902a9
 int id position 0x7f090196
 int id postLayout 0x7f090197
 int id progress 0x7f090198
@@ -3175,6 +3178,7 @@ int id textView13 0x7f09021d
 int id textView14 0x7f09021e
 int id textView15 0x7f09021f
 int id textView16 0x7f090220
+int id textView17 0x7f0902a7
 int id textView18 0x7f090221
 int id textView19 0x7f090222
 int id textView2 0x7f090223
@@ -3183,6 +3187,7 @@ int id textView21 0x7f090225
 int id textView22 0x7f090226
 int id textView23 0x7f090227
 int id textView24 0x7f090228
+int id textView25 0x7f0902a8
 int id textView26 0x7f090229
 int id textView27 0x7f09022a
 int id textView28 0x7f09022b
@@ -3248,6 +3253,9 @@ int id unchecked 0x7f090267
 int id uniform 0x7f090268
 int id unlabeled 0x7f090269
 int id up 0x7f09026a
+int id update 0x7f090297
+int id updateName 0x7f0902aa
+int id updatePrice 0x7f0902ab
 int id useLogo 0x7f09026b
 int id user1_img 0x7f09026c
 int id vertical_only 0x7f09026d
@@ -3366,6 +3374,7 @@ int layout activity_login 0x7f0c0023
 int layout activity_main 0x7f0c0024
 int layout activity_register 0x7f0c0085
 int layout activity_restaurant 0x7f0c0025
+int layout activity_update 0x7f0c0087
 int layout analysis_blocks 0x7f0c0026
 int layout client_list 0x7f0c0027
 int layout comment_list 0x7f0c0084

@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
@@ -19,7 +20,7 @@ public class MenuDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS meals (name VARCAHR(10), price VARCHAR(10), image int(100))"); // 建立餐點資料庫
+        db.execSQL("CREATE TABLE meals (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, price TEXT, image INTEGER)"); // 建立餐點資料庫
     }
 
     @Override
@@ -28,16 +29,29 @@ public class MenuDatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    void addItem(int image, String name, String price) {
+    // add new meal
+    void addItem(String name, String price, int image) {
         // set content
         ContentValues cv = new ContentValues();
-        cv.put("image", image);
         cv.put("name", name);
         cv.put("price", "$ " + price);
+        cv.put("image", image);
 
         // insert to database
         SQLiteDatabase db = this.getWritableDatabase();
         db.insert("meals", null, cv);
+    }
+
+    // update meal
+    void updateData(String newName, String newPrice, int newImage) {
+        ContentValues cv = new ContentValues();
+        cv.put("name", newName);
+        cv.put("price", "$ " + newPrice);
+        cv.put("image", newImage);
+
+        // update the database
+//        SQLiteDatabase db = this.getWritableDatabase();
+//        db.update();
     }
 
     Cursor readAllData() {

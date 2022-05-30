@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="加入新餐點"
+        android:text="快速新增"
         android:textColor="@color/orange"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="@+id/please_add"
         app:layout_constraintStart_toStartOf="@+id/please_add"
         app:layout_constraintTop_toBottomOf="@+id/please_add"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
+        app:srcCompat="@drawable/camera" />
 
     <Button
         android:id="@+id/confirm"
@@ -71,6 +71,7 @@
         android:layout_marginTop="10dp"
         android:text="確定"
         android:textStyle="bold"
+        app:cornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="@+id/addPrice"
         app:layout_constraintStart_toStartOf="@+id/addPrice"
         app:layout_constraintTop_toBottomOf="@+id/addPrice" />
