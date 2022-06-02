@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "73998492673",
+    "firebase_url": "https://andriod-fcu-default-rtdb.firebaseio.com",
+    "project_id": "andriod-fcu",
+    "storage_bucket": "andriod-fcu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73998492673:android:b9d24cec85dab542638c00",
+        "android_client_info": {
+          "package_name": "com.example.fooooood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73998492673-o3eb06hp0rgqmltek4kqe83t0btn8h2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0TIj0Tb5o_3e_egPZwdDtGeTP98PcbGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73998492673-o3eb06hp0rgqmltek4kqe83t0btn8h2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

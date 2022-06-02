@@ -80,7 +80,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/button_circle_shape"
-        android:onClick="onGo"
+        android:onClick="login"
         android:text="GO!"
         android:textColor="#ffff"
         android:textSize="20sp"
