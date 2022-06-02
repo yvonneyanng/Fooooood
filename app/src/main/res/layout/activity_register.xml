@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -38,269 +38,275 @@
             android:textColor="#f2f2f2"
             android:textStyle="bold" />
     </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/title_register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:text="@string/register"
-            android:textColor="#FB8500"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_margin="25dp"/>
-
         <LinearLayout
-            android:layout_width="340dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-
-            <ToggleButton
-                android:id="@+id/toggleButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/button_selector"
-                android:checked="true"
-                android:text="@string/customer"
-                android:textColor="@color/black"
-                android:textOff="@string/customer"
-                android:textOn="@string/customer" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton2"
+            <TextView
+                android:id="@+id/title_register"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/button_selector"
-                android:text="@string/store"
-                android:textOff="@string/store"
-                android:textOn="@string/store" />
+                android:layout_margin="25dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/register"
+                android:textColor="#FB8500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-            <ToggleButton
-                android:id="@+id/toggleButton3"
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+                <ToggleButton
+                    android:id="@+id/toggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/button_selector"
+                    android:checked="true"
+                    android:text="@string/customer"
+                    android:textColor="@color/black"
+                    android:textOff="@string/customer"
+                    android:textOn="@string/customer" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/button_selector"
+                    android:text="@string/store"
+                    android:textOff="@string/store"
+                    android:textOn="@string/store" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/button_selector"
+                    android:text="@string/delivery"
+                    android:textOff="@string/delivery"
+                    android:textOn="@string/delivery" />
+            </LinearLayout>
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/button_selector"
-                android:text="@string/delivery"
-                android:textOff="@string/delivery"
-                android:textOn="@string/delivery" />
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="帳號"
+                    android:textColor="#FB8500"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputAccount"
+                    android:layout_width="340dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/account"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_background"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="密碼"
+                    android:textColor="#FB8500"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputPassword"
+                    android:layout_width="340dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/password"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/edit_background"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="姓名"
+                    android:textColor="#FB8500"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputName"
+                    android:layout_width="340dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/name"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_background"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="電話"
+                    android:textColor="#FB8500"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputPhone"
+                    android:layout_width="340dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/phone"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_background"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeStoreName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/storeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="店名"
+                    android:textColor="#FB8500"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputStoreName"
+                    android:layout_width="340dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/storeName"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_background"
+                    android:paddingLeft="10dp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeStorePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/storePhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="8dp"
+                    android:text="店家電話"
+                    android:textColor="#FB8500"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputStorePhone"
+                    android:layout_width="340dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/storePhone"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit_background"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_circle_shape"
+                android:onClick="register"
+                android:text="GO!"
+                android:textColor="#ffff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#00FFFFFF"
+                android:onClick="goBack"
+                android:text="登入"
+                android:textColor="@color/mainColor"
+                android:textSize="15dp"
+                android:textStyle="bold" />
         </LinearLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp">
-
-            <TextView
-                android:id="@+id/account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="8dp"
-                android:text="帳號"
-                android:textColor="#FB8500"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputAccount"
-                android:layout_width="340dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/account"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/edit_background"
-                android:paddingLeft="10dp" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <TextView
-                android:id="@+id/password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="8dp"
-                android:text="密碼"
-                android:textColor="#FB8500"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputPassword"
-                android:layout_width="340dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/password"
-                android:layout_marginTop="4dp"
-                android:background="@drawable/edit_background"
-                android:paddingLeft="10dp" />
-        </RelativeLayout>
-
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="8dp"
-                android:text="姓名"
-                android:textColor="#FB8500"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputName"
-                android:layout_width="340dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/name"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/edit_background"
-                android:paddingLeft="10dp" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <TextView
-                android:id="@+id/phone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="8dp"
-                android:text="電話"
-                android:textColor="#FB8500"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputPhone"
-                android:layout_width="340dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/phone"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/edit_background"
-                android:paddingLeft="10dp" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/relativeStoreName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone">
-
-            <TextView
-                android:id="@+id/storeName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="8dp"
-                android:text="店名"
-                android:textColor="#FB8500"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                android:visibility="visible" />
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputStoreName"
-                android:layout_width="340dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/storeName"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/edit_background"
-                android:paddingLeft="10dp"
-                android:visibility="visible" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/relativeStorePhone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone">
-
-            <TextView
-                android:id="@+id/storePhone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="8dp"
-                android:text="店家電話"
-                android:textColor="#FB8500"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputStorePhone"
-                android:layout_width="340dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/storePhone"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/edit_background"
-                android:paddingLeft="10dp" />
-        </RelativeLayout>
-
-        <Button
-            android:id="@+id/button_register"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/button_circle_shape"
-            android:onClick="register"
-            android:text="GO!"
-            android:textColor="#ffff"
-            android:textSize="25sp" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:background="#00FFFFFF"
-            android:onClick="goBack"
-            android:text="登入"
-            android:textColor="@color/mainColor"
-            android:textSize="15dp"
-            android:textStyle="bold" />
-    </LinearLayout>
 
     </ScrollView>
 </LinearLayout>

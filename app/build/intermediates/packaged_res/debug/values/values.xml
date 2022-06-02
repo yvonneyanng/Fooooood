@@ -33,8 +33,15 @@
     <string name="close">休息中 </string>
     <string name="customer">消費者</string>
     <string name="decline">拒單</string>
+    <string name="default_web_client_id" translatable="false">73998492673-o3eb06hp0rgqmltek4kqe83t0btn8h2s.apps.googleusercontent.com</string>
     <string name="delivery">外送員</string>
+    <string name="firebase_database_url" translatable="false">https://andriod-fcu-default-rtdb.firebaseio.com</string>
     <string name="first_fragment_label">first_fragment_label</string>
+    <string name="gcm_defaultSenderId" translatable="false">73998492673</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0TIj0Tb5o_3e_egPZwdDtGeTP98PcbGs</string>
+    <string name="google_app_id" translatable="false">1:73998492673:android:b9d24cec85dab542638c00</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0TIj0Tb5o_3e_egPZwdDtGeTP98PcbGs</string>
+    <string name="google_storage_bucket" translatable="false">andriod-fcu.appspot.com</string>
     <string name="hello_first_fragment">hello_first_fragment</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="invalid_username">Not a valid username</string>
@@ -43,6 +50,7 @@
     <string name="next">next</string>
     <string name="open">營業中</string>
     <string name="previous">previous</string>
+    <string name="project_id" translatable="false">andriod-fcu</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="register">註冊</string>
@@ -53,18 +61,18 @@
     <string name="title_activity_register">RegisterActivity</string>
     <string name="welcome">"Welcome !"</string>
     <style name="Theme.Fooooood" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-
-        
+<!--&gt;>>>>>> 73ac1b7ec72b7bfdd07706ce3f174a166a6b999a-->
+        <!-- Primary brand color. -->
         <item name="colorPrimary">@color/mainColor</item>
         <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
-        
+        <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/mainColor</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
-        
+        <!-- Status bar color. -->
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
-        
+        <!-- Customize your theme here. -->
     </style>
     <style name="Theme.Fooooood.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.Fooooood.NoActionBar">
