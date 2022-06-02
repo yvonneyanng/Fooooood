@@ -50,14 +50,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <SearchView
+            <android.widget.SearchView
                 android:id="@+id/searchView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="13dp"
 
-                android:layout_marginBottom="13dp" />
+                android:layout_marginBottom="13dp"
+                android:background="@drawable/edit_background" />
 
             <TextView
                 android:id="@+id/textView"

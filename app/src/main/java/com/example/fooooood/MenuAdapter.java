@@ -61,7 +61,6 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
     }
 
     public class MenuViewHolder extends RecyclerView.ViewHolder{
-
         ImageView img;
         TextView name;
         TextView price;
