@@ -32,14 +32,13 @@ public class UpdateActivity extends AppCompatActivity {
         update_img = findViewById(R.id.originalPhoto);
 
         getAndSetIntentData();
-
         // update meal
         bt_update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // update database
                 MenuDatabaseHelper myDB = new MenuDatabaseHelper(UpdateActivity.this);
-                myDB.updateData(name, price, image);
+                myDB.updateData(id, name, price, image);
 
                 Toast.makeText(UpdateActivity.this, "更新成功", Toast.LENGTH_LONG).show();
                 // go back to menu list
@@ -62,8 +61,9 @@ public class UpdateActivity extends AppCompatActivity {
 
     // display original data
     void getAndSetIntentData() {
-        if(getIntent().hasExtra("name") && getIntent().hasExtra("price") && getIntent().hasExtra("image")){
+        if(getIntent().hasExtra("id") && getIntent().hasExtra("name") && getIntent().hasExtra("price") && getIntent().hasExtra("image")){
             // get intent data
+            id = getIntent().getStringExtra("id");
             name = getIntent().getStringExtra("name");
             price = getIntent().getStringExtra("price");
             image = getIntent().getIntExtra("image", 0);
