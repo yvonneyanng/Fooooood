@@ -8,7 +8,7 @@ public class SwipeItem extends ItemTouchHelper.SimpleCallback {
 
     MenuAdapter mMenuAdapter;
     SwipeItem(MenuAdapter menuAdapter) {
-        super(0, ItemTouchHelper.LEFT);
+        super(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT);
         this.mMenuAdapter = menuAdapter;
     }
 
@@ -20,6 +20,6 @@ public class SwipeItem extends ItemTouchHelper.SimpleCallback {
     @Override
     public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
         int position = viewHolder.getAdapterPosition();
-//        this.mMenuAdapter.deleteItem(position);
+        this.mMenuAdapter.deleteItem(position);
     }
 }

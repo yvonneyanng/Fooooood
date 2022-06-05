@@ -31,6 +31,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -42,10 +43,13 @@ public class EditActivity extends AppCompatActivity {
     RecyclerView rcvMenu;
     FloatingActionButton btnFloating;
     MenuAdapter menuAdapter;
+    String name;
+    String price;
+    int image;
+    int pos;
+
     EditText etName, etPrice;
-    MenuDatabaseHelper myDB;
-    ArrayList<String> mealName, mealPrice, mealId;
-    ArrayList<Integer> mealImg;
+    List<Menu> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,15 +59,26 @@ public class EditActivity extends AppCompatActivity {
         btnFloating = findViewById(R.id.add);
         rcvMenu = findViewById(R.id.rv_menu);
 
-        myDB = new MenuDatabaseHelper(EditActivity.this);
-        mealId = new ArrayList<>();
-        mealImg = new ArrayList<>();
-        mealName = new ArrayList<>();
-        mealPrice = new ArrayList<>();
-        storeDataInArrays();
-        menuAdapter = new MenuAdapter(EditActivity.this, this,  mealId, mealImg, mealName, mealPrice);
+        menuAdapter = new MenuAdapter();
         rcvMenu.setLayoutManager(new LinearLayoutManager(EditActivity.this));
+        menuAdapter.setData(getListMenu());
         rcvMenu.setAdapter(menuAdapter);
+
+        getAndSetIntentData();
+        menuAdapter.OnRecyclerViewClickListener(new MenuAdapter.OnRecyclerViewClickListener() {
+            @Override
+            public void OnItemClick(int position) {
+                Intent intent = new Intent(EditActivity.this, UpdateActivity.class);
+                intent.putExtra("name", list.get(position).getMealName());
+                intent.putExtra("price", list.get(position).getMealPrice());
+                intent.putExtra("img", list.get(position).getMealImg());
+                intent.putExtra("position", position);
+                startActivity(intent);
+            }
+        });
+
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeItem(menuAdapter));
+        itemTouchHelper.attachToRecyclerView(rcvMenu);
 
         // hide and show the floating action button while scrolling
         rcvMenu.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -99,7 +114,6 @@ public class EditActivity extends AppCompatActivity {
                 etName = dialog.findViewById(R.id.addName);
                 etPrice = dialog.findViewById(R.id.addPrice);
                 Button btConfirm = dialog.findViewById(R.id.confirm);
-                ImageView ibtAdd = dialog.findViewById(R.id.takePhoto);
 
                 dialog.show();
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -118,10 +132,7 @@ public class EditActivity extends AppCompatActivity {
                         } else if (TextUtils.isEmpty(etPrice.getText().toString())){
                             Toast.makeText(EditActivity.this, "請輸入價格", Toast.LENGTH_LONG).show();
                         } else {
-                            MenuDatabaseHelper menuDatabase = new MenuDatabaseHelper(EditActivity.this);
-                            menuDatabase.addItem(etName.getText().toString(), etPrice.getText().toString(), R.drawable.wtf);
-                            finish();
-                            startActivity(getIntent());
+                            list.add(new Menu(etName.getText().toString(), etPrice.getText().toString(), R.drawable.unknown));
                             dialog.dismiss();
                         }
                     }
@@ -130,25 +141,28 @@ public class EditActivity extends AppCompatActivity {
         });
     }
 
-    void storeDataInArrays() {
-        Cursor cursor = myDB.readAllData();
-        if(cursor.getCount() == 0){
-            Toast.makeText(this, "您的菜單是空的！", Toast.LENGTH_LONG).show();
-        } else {
-            while(cursor.moveToNext()){
-                mealId.add(cursor.getString(0));
-                mealName.add(cursor.getString(1));
-                mealPrice.add(cursor.getString(2));
-                mealImg.add(cursor.getInt(3));
-            }
-        }
+    private List<Menu> getListMenu() {
+
+        list.add(new Menu("牛肉", "200", R.drawable.beef));
+        list.add(new Menu("肉醬", "150", R.drawable.meat));
+        list.add(new Menu("可樂", "20", R.drawable.coke));
+        list.add(new Menu("可爾必思", "30", R.drawable.calpis));
+        list.add(new Menu("海鮮", "130", R.drawable.seafood));
+        return list;
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == 1){ // code for displaying new data after update
-            recreate();
+    // display original data
+    void getAndSetIntentData() {
+        if(getIntent().hasExtra("position") && getIntent().hasExtra("name") && getIntent().hasExtra("price") && getIntent().hasExtra("img")){
+            // get intent data
+            name = getIntent().getStringExtra("name");
+            price = getIntent().getStringExtra("price");
+            image = getIntent().getIntExtra("img", 0);
+            pos = getIntent().getIntExtra("position", 0);
+
+            // set intent data
+            Menu newData = new Menu(name, price, image);
+            list.set(pos, newData);
         }
     }
 }
