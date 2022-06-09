@@ -6,11 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".DriverNewOrder">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#545454"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="0dp"
+            android:layout_marginRight="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toolbar_title2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="100dp"
         android:text="新訂單！"
         android:textColor="@color/mainColor"
         android:textSize="24sp"
@@ -56,14 +94,13 @@
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="160dp"
-                android:layout_height="72dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/textView21"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="187dp"
-                android:layout_marginTop="-8dp"
+                android:layout_marginTop="37dp"
                 android:layout_marginEnd="30dp"
-                android:gravity="bottom"
                 android:text="091234567"
                 android:textAlignment="viewEnd"
                 android:textSize="20sp"
@@ -213,28 +250,41 @@
     <Button
         android:id="@+id/button6"
         android:layout_width="131dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="48dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/shape_normal"
-        android:text="不接取"
+        android:text="接取"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="129dp"
         android:layout_height="55dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="52dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/shape_normal"
-        android:text="接取"
+        android:text="不接取"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="298dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_normal"
+        android:text="已送達"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

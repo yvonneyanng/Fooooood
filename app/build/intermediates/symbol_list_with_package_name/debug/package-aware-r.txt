@@ -2792,6 +2792,7 @@ id button5
 id button6
 id button7
 id button8
+id button9
 id buttonPanel
 id button_register
 id cache_measures
@@ -2852,7 +2853,6 @@ id decelerateAndComplete
 id decline
 id decor_content_parent
 id default_activity_button
-id delete
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3207,7 +3207,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
-id takePhoto
+id tb
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint

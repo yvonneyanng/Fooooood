@@ -2791,6 +2791,7 @@ int id button5 0x7f090081
 int id button6 0x7f090082
 int id button7 0x7f090083
 int id button8 0x7f090084
+int id button9 0x7f0902a2
 int id buttonPanel 0x7f090085
 int id button_register 0x7f090086
 int id cache_measures 0x7f090087
@@ -2851,7 +2852,6 @@ int id decelerateAndComplete 0x7f0900bd
 int id decline 0x7f0900be
 int id decor_content_parent 0x7f0900bf
 int id default_activity_button 0x7f0900c0
-int id delete 0x7f0900c1
 int id deltaRelative 0x7f0900c2
 int id dependency_ordering 0x7f0900c3
 int id design_bottom_sheet 0x7f0900c4
@@ -3206,7 +3206,7 @@ int id tag_transition_group 0x7f090220
 int id tag_unhandled_key_event_manager 0x7f090221
 int id tag_unhandled_key_listeners 0x7f090222
 int id tag_window_insets_animation_callback 0x7f090223
-int id takePhoto 0x7f090224
+int id tb 0x7f0902a3
 int id test_checkbox_android_button_tint 0x7f090225
 int id test_checkbox_app_button_tint 0x7f090226
 int id test_radiobutton_android_button_tint 0x7f090227

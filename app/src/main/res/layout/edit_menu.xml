@@ -34,9 +34,9 @@
         android:minHeight="48dp"
         android:paddingLeft="10dp"
         android:textColorHint="#a3a3a3"
-        app:layout_constraintEnd_toEndOf="@+id/takePhoto"
-        app:layout_constraintStart_toStartOf="@+id/takePhoto"
-        app:layout_constraintTop_toBottomOf="@+id/takePhoto" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/please_add" />
 
     <EditText
         android:id="@+id/addPrice"
@@ -52,17 +52,6 @@
         app:layout_constraintEnd_toEndOf="@+id/addName"
         app:layout_constraintStart_toStartOf="@+id/addName"
         app:layout_constraintTop_toBottomOf="@+id/addName" />
-
-    <ImageView
-        android:id="@+id/takePhoto"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/edit_background"
-        app:layout_constraintEnd_toEndOf="@+id/please_add"
-        app:layout_constraintStart_toStartOf="@+id/please_add"
-        app:layout_constraintTop_toBottomOf="@+id/please_add"
-        app:srcCompat="@drawable/camera" />
 
     <Button
         android:id="@+id/confirm"
